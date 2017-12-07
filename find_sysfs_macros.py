@@ -20,7 +20,7 @@ def chunks(l, n):
 def write_cocci_output(filename):
     print ('Processing file ' + str(filename))
     # run coccinelle on drivers
-    os.system('spatch -j 4 --sp-file ' + str(filename) + ' -j 4 ' + ' --dir ~/projects/linux/drivers/ >' + 'out/out.' + str(os.path.basename(filename)))
+    os.system('spatch -j 4 --use-idutils --sp-file ' + str(filename) + ' -j 4 ' + ' --dir ~/projects/linux/drivers/ >' + 'out/out.' + str(os.path.basename(filename)))
     print ('########################################################')
 
 def save_to_file(lines, filename):
