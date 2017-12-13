@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = GRCAN_CONFIG_ATTR;
+declarer mac = ATTR_ADDR_MATCH;
 @@
 mac(es, attr@i, ...);
 

@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = DM_ATTR_RO;
+declarer mac = fc_private_host_rd_attr;
 @@
 mac(es, attr@i, ...);
 

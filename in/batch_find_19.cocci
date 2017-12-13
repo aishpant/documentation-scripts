@@ -3,9 +3,9 @@
 s = set()
 
 @r@
-expression list[1]es;
+expression list[0]es;
 identifier attr, i;
-declarer mac = DMI_SYSFS_ATTR;
+declarer mac = iscsi_conn_ep_attr;
 @@
 mac(es, attr@i, ...);
 

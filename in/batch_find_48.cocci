@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = ROCCAT_COMMON2_BIN_ATTRIBUTE_W;
+declarer mac = fc_host_rd_attr;
 @@
 mac(es, attr@i, ...);
 

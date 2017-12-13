@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = data_attribute;
+declarer mac = capability_attribute;
 @@
 mac(es, attr@i, ...);
 

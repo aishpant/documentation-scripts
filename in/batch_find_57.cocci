@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = VBD_SHOW;
+declarer mac = ssb_config_attr;
 @@
 mac(es, attr@i, ...);
 

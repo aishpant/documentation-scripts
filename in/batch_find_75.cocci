@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = i915_param_named_unsafe;
+declarer mac = GRCAN_CONFIG_ATTR;
 @@
 mac(es, attr@i, ...);
 

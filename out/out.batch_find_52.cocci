@@ -1,6 +1,6 @@
-{('SMM665_ATTR', 'crit')}
-{('SMM665_ATTR', 'crit'), ('SMM665_ATTR', 'crit_alarm')}
-{('SMM665_ATTR', 'crit'), ('SMM665_ATTR', 'input'), ('SMM665_ATTR', 'crit_alarm')}
-{('SMM665_ATTR', 'lcrit'), ('SMM665_ATTR', 'crit'), ('SMM665_ATTR', 'input'), ('SMM665_ATTR', 'crit_alarm')}
-{('SMM665_ATTR', 'input'), ('SMM665_ATTR', 'max'), ('SMM665_ATTR', 'crit'), ('SMM665_ATTR', 'crit_alarm'), ('SMM665_ATTR', 'lcrit')}
-{('SMM665_ATTR', 'input'), ('SMM665_ATTR', 'min'), ('SMM665_ATTR', 'max'), ('SMM665_ATTR', 'crit'), ('SMM665_ATTR', 'crit_alarm'), ('SMM665_ATTR', 'lcrit')}
+{('DECLARE_ADDR_MATCH', 'bank')}
+{('DECLARE_ADDR_MATCH', 'bank'), ('DECLARE_ADDR_MATCH', 'channel')}
+{('DECLARE_ADDR_MATCH', 'bank'), ('DECLARE_ADDR_MATCH', 'channel'), ('DECLARE_ADDR_MATCH', 'col')}
+{('DECLARE_ADDR_MATCH', 'bank'), ('DECLARE_ADDR_MATCH', 'channel'), ('DECLARE_ADDR_MATCH', 'dimm'), ('DECLARE_ADDR_MATCH', 'col')}
+{('DECLARE_ADDR_MATCH', 'bank'), ('DECLARE_ADDR_MATCH', 'channel'), ('DECLARE_ADDR_MATCH', 'dimm'), ('DECLARE_ADDR_MATCH', 'page'), ('DECLARE_ADDR_MATCH', 'col')}
+{('DECLARE_ADDR_MATCH', 'rank'), ('DECLARE_ADDR_MATCH', 'bank'), ('DECLARE_ADDR_MATCH', 'channel'), ('DECLARE_ADDR_MATCH', 'dimm'), ('DECLARE_ADDR_MATCH', 'page'), ('DECLARE_ADDR_MATCH', 'col')}

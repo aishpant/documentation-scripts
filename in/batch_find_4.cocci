@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = BIN_ATTR_RW;
+declarer mac = gb_loopback_stats_attrs;
 @@
 mac(es, attr@i, ...);
 

@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = rpmsg_show_attr;
+declarer mac = LUSTRE_RO_ATTR;
 @@
 mac(es, attr@i, ...);
 

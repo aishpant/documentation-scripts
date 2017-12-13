@@ -1,7 +1,6 @@
-{('sas_expander_simple_attr', 'component_id')}
-{('sas_expander_simple_attr', 'component_revision_id'), ('sas_expander_simple_attr', 'component_id')}
-{('sas_expander_simple_attr', 'component_vendor_id'), ('sas_expander_simple_attr', 'component_revision_id'), ('sas_expander_simple_attr', 'component_id')}
-{('sas_expander_simple_attr', 'component_vendor_id'), ('sas_expander_simple_attr', 'component_revision_id'), ('sas_expander_simple_attr', 'level'), ('sas_expander_simple_attr', 'component_id')}
-{('sas_expander_simple_attr', 'level'), ('sas_expander_simple_attr', 'component_revision_id'), ('sas_expander_simple_attr', 'product_id'), ('sas_expander_simple_attr', 'component_id'), ('sas_expander_simple_attr', 'component_vendor_id')}
-{('sas_expander_simple_attr', 'level'), ('sas_expander_simple_attr', 'component_revision_id'), ('sas_expander_simple_attr', 'product_id'), ('sas_expander_simple_attr', 'component_id'), ('sas_expander_simple_attr', 'component_vendor_id'), ('sas_expander_simple_attr', 'product_rev')}
-{('sas_expander_simple_attr', 'vendor_id'), ('sas_expander_simple_attr', 'level'), ('sas_expander_simple_attr', 'component_revision_id'), ('sas_expander_simple_attr', 'product_id'), ('sas_expander_simple_attr', 'component_id'), ('sas_expander_simple_attr', 'component_vendor_id'), ('sas_expander_simple_attr', 'product_rev')}
+{('USB_UDC_ATTR', 'a_alt_hnp_support')}
+{('USB_UDC_ATTR', 'a_hnp_support'), ('USB_UDC_ATTR', 'a_alt_hnp_support')}
+{('USB_UDC_ATTR', 'a_hnp_support'), ('USB_UDC_ATTR', 'a_alt_hnp_support'), ('USB_UDC_ATTR', 'b_hnp_enable')}
+{('USB_UDC_ATTR', 'a_hnp_support'), ('USB_UDC_ATTR', 'a_alt_hnp_support'), ('USB_UDC_ATTR', 'b_hnp_enable'), ('USB_UDC_ATTR', 'is_a_peripheral')}
+{('USB_UDC_ATTR', 'b_hnp_enable'), ('USB_UDC_ATTR', 'is_a_peripheral'), ('USB_UDC_ATTR', 'a_hnp_support'), ('USB_UDC_ATTR', 'a_alt_hnp_support'), ('USB_UDC_ATTR', 'is_otg')}
+{('USB_UDC_ATTR', 'b_hnp_enable'), ('USB_UDC_ATTR', 'is_a_peripheral'), ('USB_UDC_ATTR', 'a_hnp_support'), ('USB_UDC_ATTR', 'a_alt_hnp_support'), ('USB_UDC_ATTR', 'is_otg'), ('USB_UDC_ATTR', 'is_selfpowered')}

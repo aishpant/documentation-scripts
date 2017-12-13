@@ -1,4 +1,1 @@
-{('INSTANCE_ATTR', 'ce_count')}
-{('INSTANCE_ATTR', 'ce_count'), ('INSTANCE_ATTR', 'ue_count')}
-{('INSTANCE_ATTR', 'npe_count')}
-{('INSTANCE_ATTR', 'pe_count'), ('INSTANCE_ATTR', 'npe_count')}
+{('LUA_BIN_ATTRIBUTE_RW', 'control')}

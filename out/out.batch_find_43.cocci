@@ -1,6 +1,4 @@
-{('MDEV_TYPE_ATTR_RO', 'available_instances')}
-{('MDEV_TYPE_ATTR_RO', 'description'), ('MDEV_TYPE_ATTR_RO', 'available_instances')}
-{('MDEV_TYPE_ATTR_RO', 'description'), ('MDEV_TYPE_ATTR_RO', 'device_api'), ('MDEV_TYPE_ATTR_RO', 'available_instances')}
-{('MDEV_TYPE_ATTR_RO', 'available_instances')}
-{('MDEV_TYPE_ATTR_RO', 'device_api'), ('MDEV_TYPE_ATTR_RO', 'available_instances')}
-{('MDEV_TYPE_ATTR_RO', 'device_api'), ('MDEV_TYPE_ATTR_RO', 'available_instances'), ('MDEV_TYPE_ATTR_RO', 'name')}
+{('ISKU_BIN_ATTR_W', 'control')}
+{('ISKU_BIN_ATTR_W', 'control'), ('ISKU_BIN_ATTR_W', 'reset')}
+{('ISKU_BIN_ATTR_W', 'control'), ('ISKU_BIN_ATTR_W', 'reset'), ('ISKU_BIN_ATTR_W', 'talk')}
+{('ISKU_BIN_ATTR_W', 'control'), ('ISKU_BIN_ATTR_W', 'reset'), ('ISKU_BIN_ATTR_W', 'talk'), ('ISKU_BIN_ATTR_W', 'talkfx')}

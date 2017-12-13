@@ -3,9 +3,9 @@
 s = set()
 
 @r@
-expression list[1]es;
+expression list[0]es;
 identifier attr, i;
-declarer mac = sas_expander_simple_attr;
+declarer mac = IIO_CONST_ATTR;
 @@
 mac(es, attr@i, ...);
 

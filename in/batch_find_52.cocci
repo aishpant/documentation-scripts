@@ -3,9 +3,9 @@
 s = set()
 
 @r@
-expression list[1]es;
+expression list[0]es;
 identifier attr, i;
-declarer mac = SMM665_ATTR;
+declarer mac = DECLARE_ADDR_MATCH;
 @@
 mac(es, attr@i, ...);
 

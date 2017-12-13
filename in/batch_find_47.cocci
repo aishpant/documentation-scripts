@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = ROCCAT_COMMON2_BIN_ATTRIBUTE_RW;
+declarer mac = SENSOR_DEVICE_ATTR;
 @@
 mac(es, attr@i, ...);
 

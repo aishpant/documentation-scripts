@@ -28,9 +28,15 @@ def read_result():
                # read only the last line of the cocci script results
                # which prints out the final set
                lines.extend(clean_up(l[-1]))
-    lines = remove_false_positives(lines)
+#    lines = remove_false_positives(lines)
     return lines
 
+# conatins (macro, attr, pos)
 attr_tuple = sorted(set(read_result()), key=lambda x: x[0])
-for row in attr_tuple:
-    print (row[0] + " " + row[1])
+# contains (macro, pos)
+compact_tuple = set(list(map(lambda row: (row[0], row[2]), attr_tuple)))
+
+for row in compact_tuple:
+    # rule out moudule param etc defining macros
+    if 'module' not in row[0].lower():
+        print (row[0] + " " + row[1])

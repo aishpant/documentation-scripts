@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = USB_UDC_ATTR;
+declarer mac = FW_CFG_SYSFS_ATTR;
 @@
 mac(es, attr@i, ...);
 

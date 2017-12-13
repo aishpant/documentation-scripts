@@ -1,10 +1,8 @@
-{('NCM_PARM_ATTR', 'bmNtbFormatsSupported')}
-{('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported')}
-{('NCM_PARM_ATTR', 'dwNtbOutMaxSize'), ('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported')}
-{('NCM_PARM_ATTR', 'dwNtbOutMaxSize'), ('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'wNdpInAlignment'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported')}
-{('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'dwNtbOutMaxSize'), ('NCM_PARM_ATTR', 'wNdpInDivisor'), ('NCM_PARM_ATTR', 'wNdpInAlignment'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported')}
-{('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'dwNtbOutMaxSize'), ('NCM_PARM_ATTR', 'wNdpInDivisor'), ('NCM_PARM_ATTR', 'wNdpInAlignment'), ('NCM_PARM_ATTR', 'wNdpInPayloadRemainder'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported')}
-{('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'wNdpOutAlignment'), ('NCM_PARM_ATTR', 'dwNtbOutMaxSize'), ('NCM_PARM_ATTR', 'wNdpInDivisor'), ('NCM_PARM_ATTR', 'wNdpInAlignment'), ('NCM_PARM_ATTR', 'wNdpInPayloadRemainder'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported')}
-{('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'wNdpOutAlignment'), ('NCM_PARM_ATTR', 'dwNtbOutMaxSize'), ('NCM_PARM_ATTR', 'wNdpInDivisor'), ('NCM_PARM_ATTR', 'wNdpInAlignment'), ('NCM_PARM_ATTR', 'wNdpInPayloadRemainder'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported'), ('NCM_PARM_ATTR', 'wNdpOutDivisor')}
-{('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'wNdpOutAlignment'), ('NCM_PARM_ATTR', 'wNdpOutPayloadRemainder'), ('NCM_PARM_ATTR', 'dwNtbOutMaxSize'), ('NCM_PARM_ATTR', 'wNdpInDivisor'), ('NCM_PARM_ATTR', 'wNdpInAlignment'), ('NCM_PARM_ATTR', 'wNdpInPayloadRemainder'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported'), ('NCM_PARM_ATTR', 'wNdpOutDivisor')}
-{('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'wNdpOutAlignment'), ('NCM_PARM_ATTR', 'wNdpOutPayloadRemainder'), ('NCM_PARM_ATTR', 'dwNtbOutMaxSize'), ('NCM_PARM_ATTR', 'wNtbOutMaxDatagrams'), ('NCM_PARM_ATTR', 'wNdpInDivisor'), ('NCM_PARM_ATTR', 'wNdpInAlignment'), ('NCM_PARM_ATTR', 'wNdpInPayloadRemainder'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported'), ('NCM_PARM_ATTR', 'wNdpOutDivisor')}
+{('FCOE_DEVICE_ATTR', 'dev_loss_tmo')}
+{('FCOE_DEVICE_ATTR', 'e_d_tov'), ('FCOE_DEVICE_ATTR', 'dev_loss_tmo')}
+{('FCOE_DEVICE_ATTR', 'enabled'), ('FCOE_DEVICE_ATTR', 'e_d_tov'), ('FCOE_DEVICE_ATTR', 'dev_loss_tmo')}
+{('FCOE_DEVICE_ATTR', 'enabled'), ('FCOE_DEVICE_ATTR', 'e_d_tov'), ('FCOE_DEVICE_ATTR', 'dev_loss_tmo'), ('FCOE_DEVICE_ATTR', 'fcf_dev_loss_tmo')}
+{('FCOE_DEVICE_ATTR', 'fip_vlan_responder'), ('FCOE_DEVICE_ATTR', 'dev_loss_tmo'), ('FCOE_DEVICE_ATTR', 'fcf_dev_loss_tmo'), ('FCOE_DEVICE_ATTR', 'enabled'), ('FCOE_DEVICE_ATTR', 'e_d_tov')}
+{('FCOE_DEVICE_ATTR', 'fip_vlan_responder'), ('FCOE_DEVICE_ATTR', 'dev_loss_tmo'), ('FCOE_DEVICE_ATTR', 'fcf_dev_loss_tmo'), ('FCOE_DEVICE_ATTR', 'mode'), ('FCOE_DEVICE_ATTR', 'enabled'), ('FCOE_DEVICE_ATTR', 'e_d_tov')}
+{('FCOE_DEVICE_ATTR', 'fip_vlan_responder'), ('FCOE_DEVICE_ATTR', 'dev_loss_tmo'), ('FCOE_DEVICE_ATTR', 'fcf_dev_loss_tmo'), ('FCOE_DEVICE_ATTR', 'mode'), ('FCOE_DEVICE_ATTR', 'r_a_tov'), ('FCOE_DEVICE_ATTR', 'enabled'), ('FCOE_DEVICE_ATTR', 'e_d_tov')}
+{('FCOE_DEVICE_ATTR', 'state'), ('FCOE_DEVICE_ATTR', 'fip_vlan_responder'), ('FCOE_DEVICE_ATTR', 'dev_loss_tmo'), ('FCOE_DEVICE_ATTR', 'fcf_dev_loss_tmo'), ('FCOE_DEVICE_ATTR', 'mode'), ('FCOE_DEVICE_ATTR', 'r_a_tov'), ('FCOE_DEVICE_ATTR', 'enabled'), ('FCOE_DEVICE_ATTR', 'e_d_tov')}

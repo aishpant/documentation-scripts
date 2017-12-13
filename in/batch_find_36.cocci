@@ -3,9 +3,9 @@
 s = set()
 
 @r@
-expression list[0]es;
+expression list[1]es;
 identifier attr, i;
-declarer mac = ISKU_BIN_ATTR_W;
+declarer mac = iscsi_boot_rd_attr;
 @@
 mac(es, attr@i, ...);
 

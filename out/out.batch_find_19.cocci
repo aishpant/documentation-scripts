@@ -1,5 +1,2 @@
-{('DMI_SYSFS_ATTR', 'handle')}
-{('DMI_SYSFS_ATTR', 'handle'), ('DMI_SYSFS_ATTR', 'instance')}
-{('DMI_SYSFS_ATTR', 'handle'), ('DMI_SYSFS_ATTR', 'length'), ('DMI_SYSFS_ATTR', 'instance')}
-{('DMI_SYSFS_ATTR', 'position'), ('DMI_SYSFS_ATTR', 'handle'), ('DMI_SYSFS_ATTR', 'length'), ('DMI_SYSFS_ATTR', 'instance')}
-{('DMI_SYSFS_ATTR', 'handle'), ('DMI_SYSFS_ATTR', 'position'), ('DMI_SYSFS_ATTR', 'type'), ('DMI_SYSFS_ATTR', 'instance'), ('DMI_SYSFS_ATTR', 'length')}
+{('iscsi_conn_ep_attr', 'address')}
+{('iscsi_conn_ep_attr', 'port'), ('iscsi_conn_ep_attr', 'address')}

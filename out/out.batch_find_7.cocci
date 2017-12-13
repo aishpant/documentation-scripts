@@ -1,11 +1,9 @@
-{('CCN_FORMAT_ATTR', 'bus')}
-{('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'bus')}
-{('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'bus'), ('CCN_FORMAT_ATTR', 'cmp_l')}
-{('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'bus'), ('CCN_FORMAT_ATTR', 'cmp_l')}
-{('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'cmp_l'), ('CCN_FORMAT_ATTR', 'event'), ('CCN_FORMAT_ATTR', 'bus')}
-{('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'cmp_l'), ('CCN_FORMAT_ATTR', 'event'), ('CCN_FORMAT_ATTR', 'mask'), ('CCN_FORMAT_ATTR', 'bus')}
-{('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'node'), ('CCN_FORMAT_ATTR', 'cmp_l'), ('CCN_FORMAT_ATTR', 'event'), ('CCN_FORMAT_ATTR', 'mask'), ('CCN_FORMAT_ATTR', 'bus')}
-{('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'port'), ('CCN_FORMAT_ATTR', 'node'), ('CCN_FORMAT_ATTR', 'cmp_l'), ('CCN_FORMAT_ATTR', 'event'), ('CCN_FORMAT_ATTR', 'mask'), ('CCN_FORMAT_ATTR', 'bus')}
-{('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'port'), ('CCN_FORMAT_ATTR', 'node'), ('CCN_FORMAT_ATTR', 'cmp_l'), ('CCN_FORMAT_ATTR', 'type'), ('CCN_FORMAT_ATTR', 'event'), ('CCN_FORMAT_ATTR', 'mask'), ('CCN_FORMAT_ATTR', 'bus')}
-{('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'vc'), ('CCN_FORMAT_ATTR', 'port'), ('CCN_FORMAT_ATTR', 'node'), ('CCN_FORMAT_ATTR', 'cmp_l'), ('CCN_FORMAT_ATTR', 'type'), ('CCN_FORMAT_ATTR', 'event'), ('CCN_FORMAT_ATTR', 'mask'), ('CCN_FORMAT_ATTR', 'bus')}
-{('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'xp'), ('CCN_FORMAT_ATTR', 'vc'), ('CCN_FORMAT_ATTR', 'port'), ('CCN_FORMAT_ATTR', 'node'), ('CCN_FORMAT_ATTR', 'cmp_l'), ('CCN_FORMAT_ATTR', 'type'), ('CCN_FORMAT_ATTR', 'event'), ('CCN_FORMAT_ATTR', 'mask'), ('CCN_FORMAT_ATTR', 'bus')}
+{('LM3533_ATTR_RW', 'als_channel')}
+{('LM3533_ATTR_RW', 'als_en'), ('LM3533_ATTR_RW', 'als_channel')}
+{('LM3533_ATTR_RW', 'als_en'), ('LM3533_ATTR_RW', 'als_channel'), ('LM3533_ATTR_RW', 'falltime')}
+{('LM3533_ATTR_RW', 'als_en'), ('LM3533_ATTR_RW', 'als_channel'), ('LM3533_ATTR_RW', 'falltime'), ('LM3533_ATTR_RW', 'linear')}
+{('LM3533_ATTR_RW', 'pwm'), ('LM3533_ATTR_RW', 'als_channel'), ('LM3533_ATTR_RW', 'linear'), ('LM3533_ATTR_RW', 'als_en'), ('LM3533_ATTR_RW', 'falltime')}
+{('LM3533_ATTR_RW', 'pwm'), ('LM3533_ATTR_RW', 'risetime'), ('LM3533_ATTR_RW', 'als_channel'), ('LM3533_ATTR_RW', 'linear'), ('LM3533_ATTR_RW', 'als_en'), ('LM3533_ATTR_RW', 'falltime')}
+{('LM3533_ATTR_RW', 'als_en')}
+{('LM3533_ATTR_RW', 'als_en'), ('LM3533_ATTR_RW', 'linear')}
+{('LM3533_ATTR_RW', 'als_en'), ('LM3533_ATTR_RW', 'pwm'), ('LM3533_ATTR_RW', 'linear')}

@@ -1,5 +1,5 @@
-{('gb_loopback_stats_attrs', 'apbridge_unipro_latency')}
-{('gb_loopback_stats_attrs', 'apbridge_unipro_latency'), ('gb_loopback_stats_attrs', 'gbphy_firmware_latency')}
-{('gb_loopback_stats_attrs', 'latency'), ('gb_loopback_stats_attrs', 'apbridge_unipro_latency'), ('gb_loopback_stats_attrs', 'gbphy_firmware_latency')}
-{('gb_loopback_stats_attrs', 'latency'), ('gb_loopback_stats_attrs', 'apbridge_unipro_latency'), ('gb_loopback_stats_attrs', 'requests_per_second'), ('gb_loopback_stats_attrs', 'gbphy_firmware_latency')}
-{('gb_loopback_stats_attrs', 'latency'), ('gb_loopback_stats_attrs', 'throughput'), ('gb_loopback_stats_attrs', 'apbridge_unipro_latency'), ('gb_loopback_stats_attrs', 'requests_per_second'), ('gb_loopback_stats_attrs', 'gbphy_firmware_latency')}
+{('sdev_rd_attr', 'model')}
+{('sdev_rd_attr', 'rev'), ('sdev_rd_attr', 'model')}
+{('sdev_rd_attr', 'scsi_level'), ('sdev_rd_attr', 'rev'), ('sdev_rd_attr', 'model')}
+{('sdev_rd_attr', 'scsi_level'), ('sdev_rd_attr', 'rev'), ('sdev_rd_attr', 'model'), ('sdev_rd_attr', 'type')}
+{('sdev_rd_attr', 'model'), ('sdev_rd_attr', 'vendor'), ('sdev_rd_attr', 'rev'), ('sdev_rd_attr', 'type'), ('sdev_rd_attr', 'scsi_level')}

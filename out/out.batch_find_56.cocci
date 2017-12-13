@@ -1,2 +1,3 @@
-{('USB_UDC_SPEED_ATTR', 'current_speed')}
-{('USB_UDC_SPEED_ATTR', 'maximum_speed'), ('USB_UDC_SPEED_ATTR', 'current_speed')}
+{('fc_private_rport_rd_attr', 'maxframe_size')}
+{('fc_private_rport_rd_attr', 'maxframe_size'), ('fc_private_rport_rd_attr', 'port_id')}
+{('fc_private_rport_rd_attr', 'scsi_target_id'), ('fc_private_rport_rd_attr', 'maxframe_size'), ('fc_private_rport_rd_attr', 'port_id')}

@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = coresight_etm3x_reg;
+declarer mac = ASUS_WMI_CREATE_DEVICE_ATTR;
 @@
 mac(es, attr@i, ...);
 

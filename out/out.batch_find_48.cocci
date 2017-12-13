@@ -1,9 +1,2 @@
-{('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'control')}
-{('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'control'), ('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'custom_lights')}
-{('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'control'), ('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'custom_lights'), ('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'light_control')}
-{('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'control'), ('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'custom_lights'), ('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'reset'), ('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'light_control')}
-{('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'control'), ('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'custom_lights'), ('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'light_control'), ('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'talk'), ('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'reset')}
-{('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'control')}
-{('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'control'), ('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'macro')}
-{('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'control'), ('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'macro'), ('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'talk')}
-{('ROCCAT_COMMON2_BIN_ATTRIBUTE_W', 'control')}
+{('fc_host_rd_attr', 'port_id')}
+{('fc_host_rd_attr', 'symbolic_name'), ('fc_host_rd_attr', 'port_id')}

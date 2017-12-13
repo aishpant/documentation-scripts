@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = BLOCK_ATTR;
+declarer mac = EFI_ATTR_SHOW;
 @@
 mac(es, attr@i, ...);
 

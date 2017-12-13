@@ -1,5 +1,11 @@
-{('CLASS_ATTR_STRING', 'version')}
-{('CLASS_ATTR_STRING', 'abi_version')}
-{('CLASS_ATTR_STRING', 'abi_version')}
-{('CLASS_ATTR_STRING', 'version'), ('CLASS_ATTR_STRING', 'abi_version')}
-{('CLASS_ATTR_STRING', 'abi_version')}
+{('TRACKPOINT_INT_ATTR', 'draghys')}
+{('TRACKPOINT_INT_ATTR', 'draghys'), ('TRACKPOINT_INT_ATTR', 'drift_time')}
+{('TRACKPOINT_INT_ATTR', 'draghys'), ('TRACKPOINT_INT_ATTR', 'drift_time'), ('TRACKPOINT_INT_ATTR', 'inertia')}
+{('TRACKPOINT_INT_ATTR', 'jenks'), ('TRACKPOINT_INT_ATTR', 'draghys'), ('TRACKPOINT_INT_ATTR', 'drift_time'), ('TRACKPOINT_INT_ATTR', 'inertia')}
+{('TRACKPOINT_INT_ATTR', 'mindrag'), ('TRACKPOINT_INT_ATTR', 'jenks'), ('TRACKPOINT_INT_ATTR', 'drift_time'), ('TRACKPOINT_INT_ATTR', 'draghys'), ('TRACKPOINT_INT_ATTR', 'inertia')}
+{('TRACKPOINT_INT_ATTR', 'mindrag'), ('TRACKPOINT_INT_ATTR', 'jenks'), ('TRACKPOINT_INT_ATTR', 'reach'), ('TRACKPOINT_INT_ATTR', 'drift_time'), ('TRACKPOINT_INT_ATTR', 'draghys'), ('TRACKPOINT_INT_ATTR', 'inertia')}
+{('TRACKPOINT_INT_ATTR', 'mindrag'), ('TRACKPOINT_INT_ATTR', 'jenks'), ('TRACKPOINT_INT_ATTR', 'reach'), ('TRACKPOINT_INT_ATTR', 'drift_time'), ('TRACKPOINT_INT_ATTR', 'draghys'), ('TRACKPOINT_INT_ATTR', 'sensitivity'), ('TRACKPOINT_INT_ATTR', 'inertia')}
+{('TRACKPOINT_INT_ATTR', 'mindrag'), ('TRACKPOINT_INT_ATTR', 'speed'), ('TRACKPOINT_INT_ATTR', 'jenks'), ('TRACKPOINT_INT_ATTR', 'reach'), ('TRACKPOINT_INT_ATTR', 'drift_time'), ('TRACKPOINT_INT_ATTR', 'draghys'), ('TRACKPOINT_INT_ATTR', 'sensitivity'), ('TRACKPOINT_INT_ATTR', 'inertia')}
+{('TRACKPOINT_INT_ATTR', 'mindrag'), ('TRACKPOINT_INT_ATTR', 'speed'), ('TRACKPOINT_INT_ATTR', 'jenks'), ('TRACKPOINT_INT_ATTR', 'reach'), ('TRACKPOINT_INT_ATTR', 'drift_time'), ('TRACKPOINT_INT_ATTR', 'thresh'), ('TRACKPOINT_INT_ATTR', 'draghys'), ('TRACKPOINT_INT_ATTR', 'sensitivity'), ('TRACKPOINT_INT_ATTR', 'inertia')}
+{('TRACKPOINT_INT_ATTR', 'mindrag'), ('TRACKPOINT_INT_ATTR', 'speed'), ('TRACKPOINT_INT_ATTR', 'jenks'), ('TRACKPOINT_INT_ATTR', 'reach'), ('TRACKPOINT_INT_ATTR', 'drift_time'), ('TRACKPOINT_INT_ATTR', 'thresh'), ('TRACKPOINT_INT_ATTR', 'draghys'), ('TRACKPOINT_INT_ATTR', 'upthresh'), ('TRACKPOINT_INT_ATTR', 'sensitivity'), ('TRACKPOINT_INT_ATTR', 'inertia')}
+{('TRACKPOINT_INT_ATTR', 'mindrag'), ('TRACKPOINT_INT_ATTR', 'speed'), ('TRACKPOINT_INT_ATTR', 'jenks'), ('TRACKPOINT_INT_ATTR', 'reach'), ('TRACKPOINT_INT_ATTR', 'drift_time'), ('TRACKPOINT_INT_ATTR', 'thresh'), ('TRACKPOINT_INT_ATTR', 'draghys'), ('TRACKPOINT_INT_ATTR', 'upthresh'), ('TRACKPOINT_INT_ATTR', 'sensitivity'), ('TRACKPOINT_INT_ATTR', 'ztime'), ('TRACKPOINT_INT_ATTR', 'inertia')}

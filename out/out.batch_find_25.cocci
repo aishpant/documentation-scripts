@@ -1,4 +1,5 @@
-{('EDT_ATTR', 'gain')}
-{('EDT_ATTR', 'gain'), ('EDT_ATTR', 'offset')}
-{('EDT_ATTR', 'gain'), ('EDT_ATTR', 'offset'), ('EDT_ATTR', 'report_rate')}
-{('EDT_ATTR', 'gain'), ('EDT_ATTR', 'threshold'), ('EDT_ATTR', 'offset'), ('EDT_ATTR', 'report_rate')}
+{('IIO_CONST_ATTR_NAMED', 'in_accel_scale')}
+{('IIO_CONST_ATTR_NAMED', 'sampling_frequency_available')}
+{('IIO_CONST_ATTR_NAMED', 'integration_time_available')}
+{('IIO_CONST_ATTR_NAMED', 'sampling_frequency_available')}
+{('IIO_CONST_ATTR_NAMED', 'scale_available'), ('IIO_CONST_ATTR_NAMED', 'sampling_frequency_available')}

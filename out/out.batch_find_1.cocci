@@ -1,3 +1,2 @@
-{('ATTR', 'active')}
-{('ATTR', 'num'), ('ATTR', 'active')}
-{('ATTR', 'num'), ('ATTR', 'size'), ('ATTR', 'active')}
+{('USB_UDC_SPEED_ATTR', 'current_speed')}
+{('USB_UDC_SPEED_ATTR', 'maximum_speed'), ('USB_UDC_SPEED_ATTR', 'current_speed')}

@@ -1,8 +1,6 @@
-{('BIN_ATTR', 'iad')}
-{('BIN_ATTR', 'settings')}
-{('BIN_ATTR', 'DMI')}
-{('BIN_ATTR', 'smbios_entry_point'), ('BIN_ATTR', 'DMI')}
-{('BIN_ATTR', 'smbios_entry_point'), ('BIN_ATTR', 'DMI'), ('BIN_ATTR', 'flash_data')}
-{('BIN_ATTR', 'output')}
-{('BIN_ATTR', 'output'), ('BIN_ATTR', 'button')}
-{('BIN_ATTR', 'info'), ('BIN_ATTR', 'output'), ('BIN_ATTR', 'button')}
+{('LOOP_ATTR_RO', 'autoclear')}
+{('LOOP_ATTR_RO', 'autoclear'), ('LOOP_ATTR_RO', 'backing_file')}
+{('LOOP_ATTR_RO', 'autoclear'), ('LOOP_ATTR_RO', 'backing_file'), ('LOOP_ATTR_RO', 'dio')}
+{('LOOP_ATTR_RO', 'offset'), ('LOOP_ATTR_RO', 'autoclear'), ('LOOP_ATTR_RO', 'backing_file'), ('LOOP_ATTR_RO', 'dio')}
+{('LOOP_ATTR_RO', 'backing_file'), ('LOOP_ATTR_RO', 'offset'), ('LOOP_ATTR_RO', 'partscan'), ('LOOP_ATTR_RO', 'autoclear'), ('LOOP_ATTR_RO', 'dio')}
+{('LOOP_ATTR_RO', 'backing_file'), ('LOOP_ATTR_RO', 'offset'), ('LOOP_ATTR_RO', 'partscan'), ('LOOP_ATTR_RO', 'autoclear'), ('LOOP_ATTR_RO', 'sizelimit'), ('LOOP_ATTR_RO', 'dio')}

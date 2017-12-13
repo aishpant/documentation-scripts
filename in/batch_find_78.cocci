@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = macio_config_of_attr;
+declarer mac = pci_config_attr;
 @@
 mac(es, attr@i, ...);
 

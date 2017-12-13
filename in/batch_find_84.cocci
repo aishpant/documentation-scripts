@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = sdev_rd_attr;
+declarer mac = VBD_SHOW_ALLRING;
 @@
 mac(es, attr@i, ...);
 

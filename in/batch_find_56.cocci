@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = USB_UDC_SPEED_ATTR;
+declarer mac = fc_private_rport_rd_attr;
 @@
 mac(es, attr@i, ...);
 

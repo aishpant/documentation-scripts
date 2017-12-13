@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = coresight_tmc_reg;
+declarer mac = USB_UDC_SPEED_ATTR;
 @@
 mac(es, attr@i, ...);
 

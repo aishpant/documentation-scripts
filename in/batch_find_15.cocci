@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = DEVICE_ATTR_RO;
+declarer mac = show_pwm_reg;
 @@
 mac(es, attr@i, ...);
 

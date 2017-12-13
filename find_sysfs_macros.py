@@ -20,7 +20,7 @@ def chunks(l, n):
 def write_cocci_output(filename):
     print ('Processing file ' + str(filename))
     # run coccinelle on drivers
-    os.system('spatch -j 4 --use-idutils --sp-file ' + str(filename) + ' -j 4 ' + ' --dir ~/projects/linux/drivers/ >' + 'out/out.' + str(os.path.basename(filename)))
+    os.system('spatch -j 4 --use-idutils --sp-file ' + str(filename) + ' --dir ~/projects/linux/drivers/ >' + 'out/out.' + str(os.path.basename(filename)))
     print ('########################################################')
 
 def save_to_file(lines, filename):
@@ -42,7 +42,7 @@ lines = list(set(lines))
 
 # filter blank words
 lines = list(filter(None, lines))
-
+save_to_file(lines, 'result/all_attrs.txt')
 print (len(lines))
 
 # filter strings containing bad characters
@@ -59,18 +59,18 @@ save_to_file(lines, 'result/documented_attrs.txt')
 
 print (len(lines))
 # generate cocci scripts to work with the attributes in batches of 100
-l = list(chunks(lines, 100))
+l = list(chunks(lines, 200))
 for idx, chunk in enumerate(l):
     with open('in/' + 'batch_task_' + str(idx)+'.cocci', 'w') as fil:
         fil.write("@initialize:python@\n@@\ns = set()\n\n")
-        fil.write("@r@\nexpression list[n] es;\ndeclarer f;\n@@\n")
+        fil.write("@r@\nexpression list[n] es;\ndeclarer f;\nidentifier i;\n@@\n")
         fil.write("f(es,\n\t")
         fil.write("\(");
-        attributes = "\\|".join(chunk)
+        attributes = "@i\\|".join(chunk)
         fil.write(attributes)
         fil.write("\)\n,...);\n\n")
-        fil.write("@script:python@\nf<<r.f;\np<<r.n;\n@@\n");
-        fil.write("s.add((f,p))\nprint (s)\n")
+        fil.write("@script:python@\nf<<r.f;\np<<r.n;\ni<<r.i;\n@@\n");
+        fil.write("s.add((f,i,p))\nprint (s)\n")
         fil.close()
 
 # get all the generated cocci scripts
@@ -78,3 +78,4 @@ cocci_scripts = glob.glob("in/batch_task_*")
 
 for script in cocci_scripts:
     write_cocci_output(script)
+

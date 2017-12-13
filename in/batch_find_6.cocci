@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = BUS_ATTR;
+declarer mac = esre_attr_decl;
 @@
 mac(es, attr@i, ...);
 

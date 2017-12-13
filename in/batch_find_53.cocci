@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = TRACKPOINT_BIT_ATTR;
+declarer mac = MMC_DEV_ATTR;
 @@
 mac(es, attr@i, ...);
 

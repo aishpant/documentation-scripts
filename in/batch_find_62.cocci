@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = coresight_etb10_reg;
+declarer mac = BIN_ATTR_RW;
 @@
 mac(es, attr@i, ...);
 

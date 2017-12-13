@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = BIN_ATTR;
+declarer mac = LOOP_ATTR_RO;
 @@
 mac(es, attr@i, ...);
 

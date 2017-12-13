@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = DEVICE_ATTR_RW;
+declarer mac = coresight_etm4x_cross_read;
 @@
 mac(es, attr@i, ...);
 

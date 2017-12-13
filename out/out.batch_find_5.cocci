@@ -1,2 +1,3 @@
-{('BLOCK_ATTR', 'ce_count')}
-{('BLOCK_ATTR', 'ce_count'), ('BLOCK_ATTR', 'ue_count')}
+{('EFI_ATTR_SHOW', 'config_table')}
+{('EFI_ATTR_SHOW', 'config_table'), ('EFI_ATTR_SHOW', 'fw_vendor')}
+{('EFI_ATTR_SHOW', 'config_table'), ('EFI_ATTR_SHOW', 'fw_vendor'), ('EFI_ATTR_SHOW', 'runtime')}

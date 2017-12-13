@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = sas_expander_simple_attr;
+declarer mac = USB_UDC_ATTR;
 @@
 mac(es, attr@i, ...);
 

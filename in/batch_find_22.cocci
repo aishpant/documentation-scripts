@@ -3,9 +3,9 @@
 s = set()
 
 @r@
-expression list[0]es;
+expression list[1]es;
 identifier attr, i;
-declarer mac = DRIVER_ATTR_RO;
+declarer mac = FC_DEVICE_ATTR;
 @@
 mac(es, attr@i, ...);
 

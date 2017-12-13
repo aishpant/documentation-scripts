@@ -1,6 +1,3 @@
-{('USB_UDC_ATTR', 'a_alt_hnp_support')}
-{('USB_UDC_ATTR', 'a_hnp_support'), ('USB_UDC_ATTR', 'a_alt_hnp_support')}
-{('USB_UDC_ATTR', 'b_hnp_enable'), ('USB_UDC_ATTR', 'a_hnp_support'), ('USB_UDC_ATTR', 'a_alt_hnp_support')}
-{('USB_UDC_ATTR', 'b_hnp_enable'), ('USB_UDC_ATTR', 'is_a_peripheral'), ('USB_UDC_ATTR', 'a_hnp_support'), ('USB_UDC_ATTR', 'a_alt_hnp_support')}
-{('USB_UDC_ATTR', 'b_hnp_enable'), ('USB_UDC_ATTR', 'is_a_peripheral'), ('USB_UDC_ATTR', 'a_alt_hnp_support'), ('USB_UDC_ATTR', 'is_otg'), ('USB_UDC_ATTR', 'a_hnp_support')}
-{('USB_UDC_ATTR', 'b_hnp_enable'), ('USB_UDC_ATTR', 'is_selfpowered'), ('USB_UDC_ATTR', 'is_a_peripheral'), ('USB_UDC_ATTR', 'a_alt_hnp_support'), ('USB_UDC_ATTR', 'is_otg'), ('USB_UDC_ATTR', 'a_hnp_support')}
+{('FW_CFG_SYSFS_ATTR', 'key')}
+{('FW_CFG_SYSFS_ATTR', 'name'), ('FW_CFG_SYSFS_ATTR', 'key')}
+{('FW_CFG_SYSFS_ATTR', 'name'), ('FW_CFG_SYSFS_ATTR', 'size'), ('FW_CFG_SYSFS_ATTR', 'key')}

@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = W1_MASTER_ATTR_RW;
+declarer mac = MDEV_TYPE_ATTR_RO;
 @@
 mac(es, attr@i, ...);
 

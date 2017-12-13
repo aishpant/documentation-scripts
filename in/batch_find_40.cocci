@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = LUSTRE_RO_ATTR;
+declarer mac = MEMSTICK_ATTR;
 @@
 mac(es, attr@i, ...);
 

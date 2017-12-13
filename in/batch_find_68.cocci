@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = esrt_attr_decl;
+declarer mac = DATA_NODE_ATTR;
 @@
 mac(es, attr@i, ...);
 

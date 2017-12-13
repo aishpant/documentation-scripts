@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = IIO_CONST_ATTR;
+declarer mac = DEVICE_ATTR_WO;
 @@
 mac(es, attr@i, ...);
 

@@ -1,20 +1,10 @@
-{('DRIVER_ATTR_WO', 'add_link')}
-{('DRIVER_ATTR_WO', 'add_link'), ('DRIVER_ATTR_WO', 'remove_link')}
-{('DRIVER_ATTR_WO', 'add_link'), ('DRIVER_ATTR_WO', 'group'), ('DRIVER_ATTR_WO', 'remove_link')}
-{('DRIVER_ATTR_WO', 'add_link'), ('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'group'), ('DRIVER_ATTR_WO', 'remove_link')}
-{('DRIVER_ATTR_WO', 'remove_id'), ('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'remove_link'), ('DRIVER_ATTR_WO', 'group'), ('DRIVER_ATTR_WO', 'add_link')}
-{('DRIVER_ATTR_WO', 'group')}
-{('DRIVER_ATTR_WO', 'new_id')}
-{('DRIVER_ATTR_WO', 'remove_id'), ('DRIVER_ATTR_WO', 'new_id')}
-{('DRIVER_ATTR_WO', 'remove_id'), ('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'rebind')}
-{('DRIVER_ATTR_WO', 'remove_id'), ('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'rebind'), ('DRIVER_ATTR_WO', 'group')}
-{('DRIVER_ATTR_WO', 'remove_id'), ('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'rebind'), ('DRIVER_ATTR_WO', 'group')}
-{('DRIVER_ATTR_WO', 'new_id')}
-{('DRIVER_ATTR_WO', 'connection'), ('DRIVER_ATTR_WO', 'new_id')}
-{('DRIVER_ATTR_WO', 'connection'), ('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'remove')}
-{('DRIVER_ATTR_WO', 'connection'), ('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'remove'), ('DRIVER_ATTR_WO', 'bind')}
-{('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'bind'), ('DRIVER_ATTR_WO', 'connection'), ('DRIVER_ATTR_WO', 'remove'), ('DRIVER_ATTR_WO', 'uevent')}
-{('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'unbind'), ('DRIVER_ATTR_WO', 'bind'), ('DRIVER_ATTR_WO', 'connection'), ('DRIVER_ATTR_WO', 'remove'), ('DRIVER_ATTR_WO', 'uevent')}
-{('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'unbind'), ('DRIVER_ATTR_WO', 'bind'), ('DRIVER_ATTR_WO', 'irq_handler_state'), ('DRIVER_ATTR_WO', 'connection'), ('DRIVER_ATTR_WO', 'remove'), ('DRIVER_ATTR_WO', 'uevent')}
-{('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'unbind'), ('DRIVER_ATTR_WO', 'bind'), ('DRIVER_ATTR_WO', 'irq_handler_state'), ('DRIVER_ATTR_WO', 'connection'), ('DRIVER_ATTR_WO', 'remove'), ('DRIVER_ATTR_WO', 'new_slot'), ('DRIVER_ATTR_WO', 'uevent')}
-{('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'unbind'), ('DRIVER_ATTR_WO', 'bind'), ('DRIVER_ATTR_WO', 'remove_slot'), ('DRIVER_ATTR_WO', 'irq_handler_state'), ('DRIVER_ATTR_WO', 'connection'), ('DRIVER_ATTR_WO', 'remove'), ('DRIVER_ATTR_WO', 'new_slot'), ('DRIVER_ATTR_WO', 'uevent')}
+{('coresight_etm4x_reg', 'trcauthstatus')}
+{('coresight_etm4x_reg', 'trcauthstatus'), ('coresight_etm4x_reg', 'trcdevid')}
+{('coresight_etm4x_reg', 'trcauthstatus'), ('coresight_etm4x_reg', 'trcdevid'), ('coresight_etm4x_reg', 'trcdevtype')}
+{('coresight_etm4x_reg', 'trcauthstatus'), ('coresight_etm4x_reg', 'trcdevid'), ('coresight_etm4x_reg', 'trcdevtype'), ('coresight_etm4x_reg', 'trclsr')}
+{('coresight_etm4x_reg', 'trcauthstatus'), ('coresight_etm4x_reg', 'trcdevtype'), ('coresight_etm4x_reg', 'trclsr'), ('coresight_etm4x_reg', 'trcpdcr'), ('coresight_etm4x_reg', 'trcdevid')}
+{('coresight_etm4x_reg', 'trcauthstatus'), ('coresight_etm4x_reg', 'trcdevtype'), ('coresight_etm4x_reg', 'trclsr'), ('coresight_etm4x_reg', 'trcpdsr'), ('coresight_etm4x_reg', 'trcpdcr'), ('coresight_etm4x_reg', 'trcdevid')}
+{('coresight_etm4x_reg', 'trcauthstatus'), ('coresight_etm4x_reg', 'trcdevtype'), ('coresight_etm4x_reg', 'trclsr'), ('coresight_etm4x_reg', 'trcpidr0'), ('coresight_etm4x_reg', 'trcpdsr'), ('coresight_etm4x_reg', 'trcpdcr'), ('coresight_etm4x_reg', 'trcdevid')}
+{('coresight_etm4x_reg', 'trcauthstatus'), ('coresight_etm4x_reg', 'trcdevtype'), ('coresight_etm4x_reg', 'trclsr'), ('coresight_etm4x_reg', 'trcpidr1'), ('coresight_etm4x_reg', 'trcpidr0'), ('coresight_etm4x_reg', 'trcpdsr'), ('coresight_etm4x_reg', 'trcpdcr'), ('coresight_etm4x_reg', 'trcdevid')}
+{('coresight_etm4x_reg', 'trcauthstatus'), ('coresight_etm4x_reg', 'trcdevtype'), ('coresight_etm4x_reg', 'trclsr'), ('coresight_etm4x_reg', 'trcpidr1'), ('coresight_etm4x_reg', 'trcpidr0'), ('coresight_etm4x_reg', 'trcpdsr'), ('coresight_etm4x_reg', 'trcpidr2'), ('coresight_etm4x_reg', 'trcpdcr'), ('coresight_etm4x_reg', 'trcdevid')}
+{('coresight_etm4x_reg', 'trcauthstatus'), ('coresight_etm4x_reg', 'trcdevtype'), ('coresight_etm4x_reg', 'trclsr'), ('coresight_etm4x_reg', 'trcpidr1'), ('coresight_etm4x_reg', 'trcpidr0'), ('coresight_etm4x_reg', 'trcpdsr'), ('coresight_etm4x_reg', 'trcpidr2'), ('coresight_etm4x_reg', 'trcpidr3'), ('coresight_etm4x_reg', 'trcpdcr'), ('coresight_etm4x_reg', 'trcdevid')}

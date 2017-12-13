@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = CLASS_ATTR_RW;
+declarer mac = BALLOON_SHOW;
 @@
 mac(es, attr@i, ...);
 

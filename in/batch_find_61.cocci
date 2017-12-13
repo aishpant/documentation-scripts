@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = capability_attribute;
+declarer mac = DRIVER_ATTR_RO;
 @@
 mac(es, attr@i, ...);
 

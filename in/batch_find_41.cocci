@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = LUSTRE_RW_ATTR;
+declarer mac = IIO_DEVICE_ATTR_RW;
 @@
 mac(es, attr@i, ...);
 

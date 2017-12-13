@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[1]es;
 identifier attr, i;
-declarer mac = FC_DEVICE_ATTR;
+declarer mac = iscsi_iface_net_attr;
 @@
 mac(es, attr@i, ...);
 

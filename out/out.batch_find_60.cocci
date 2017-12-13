@@ -1,2 +1,2 @@
-{('__ATTR', 'baud_rate')}
-{('__ATTR', 'baud_rate'), ('__ATTR', 'dev_name')}
+{('EEEPC_CREATE_DEVICE_ATTR_RW', 'camera')}
+{('EEEPC_CREATE_DEVICE_ATTR_RW', 'cardr'), ('EEEPC_CREATE_DEVICE_ATTR_RW', 'camera')}

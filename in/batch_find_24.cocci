@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = DRIVER_ATTR_WO;
+declarer mac = coresight_etm4x_reg;
 @@
 mac(es, attr@i, ...);
 

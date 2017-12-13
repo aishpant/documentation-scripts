@@ -3,7 +3,8 @@ import os.path
 
 def get_macros():
    with open("result/found_macros.txt", "r") as filename:
-       return filename.readlines()
+       # filter commented lines
+       return [line for line in filename.readlines() if not line.startswith('#')]
 
 def write_cocci_output(filename):
     print ('Processing file ' + str(filename))

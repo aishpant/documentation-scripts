@@ -3,9 +3,9 @@
 s = set()
 
 @r@
-expression list[0]es;
+expression list[1]es;
 identifier attr, i;
-declarer mac = MMC_DEV_ATTR;
+declarer mac = IIO_DEVICE_ATTR_NAMED;
 @@
 mac(es, attr@i, ...);
 

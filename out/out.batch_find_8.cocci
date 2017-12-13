@@ -1,3 +1,3 @@
-{('CLASS_ATTR_RW', 'beacon_timeout_ms')}
-{('CLASS_ATTR_RW', 'timeout')}
-{('CLASS_ATTR_RW', 'disabled')}
+{('BALLOON_SHOW', 'current_kb')}
+{('BALLOON_SHOW', 'high_kb'), ('BALLOON_SHOW', 'current_kb')}
+{('BALLOON_SHOW', 'high_kb'), ('BALLOON_SHOW', 'current_kb'), ('BALLOON_SHOW', 'low_kb')}

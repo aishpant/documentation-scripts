@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = HYPERVISOR_ATTR_RO;
+declarer mac = spi_transport_max_attr;
 @@
 mac(es, attr@i, ...);
 

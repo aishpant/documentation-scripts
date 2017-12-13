@@ -1,3 +1,4 @@
-{('EFI_ATTR_SHOW', 'config_table')}
-{('EFI_ATTR_SHOW', 'config_table'), ('EFI_ATTR_SHOW', 'fw_vendor')}
-{('EFI_ATTR_SHOW', 'runtime'), ('EFI_ATTR_SHOW', 'config_table'), ('EFI_ATTR_SHOW', 'fw_vendor')}
+{('DM_ATTR_RO', 'name')}
+{('DM_ATTR_RO', 'name'), ('DM_ATTR_RO', 'suspended')}
+{('DM_ATTR_RO', 'name'), ('DM_ATTR_RO', 'use_blk_mq'), ('DM_ATTR_RO', 'suspended')}
+{('DM_ATTR_RO', 'name'), ('DM_ATTR_RO', 'use_blk_mq'), ('DM_ATTR_RO', 'suspended'), ('DM_ATTR_RO', 'uuid')}

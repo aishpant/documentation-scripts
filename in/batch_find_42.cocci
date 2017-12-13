@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = MANAGER_ATTR;
+declarer mac = zorro_config_attr;
 @@
 mac(es, attr@i, ...);
 

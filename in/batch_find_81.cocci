@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = rw_attribute;
+declarer mac = EDT_ATTR;
 @@
 mac(es, attr@i, ...);
 

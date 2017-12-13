@@ -3,9 +3,9 @@
 s = set()
 
 @r@
-expression list[0]es;
+expression list[1]es;
 identifier attr, i;
-declarer mac = EDT_ATTR;
+declarer mac = IIO_CONST_ATTR_NAMED;
 @@
 mac(es, attr@i, ...);
 

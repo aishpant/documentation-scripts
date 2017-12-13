@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = KONEPLUS_BIN_ATTRIBUTE_RW;
+declarer mac = DEVICE_ATTR_RO;
 @@
 mac(es, attr@i, ...);
 

@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = CCN_FORMAT_ATTR;
+declarer mac = LM3533_ATTR_RW;
 @@
 mac(es, attr@i, ...);
 

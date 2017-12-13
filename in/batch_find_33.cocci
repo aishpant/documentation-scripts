@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = INSTANCE_ATTR;
+declarer mac = LUA_BIN_ATTRIBUTE_RW;
 @@
 mac(es, attr@i, ...);
 

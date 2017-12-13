@@ -3,9 +3,9 @@
 s = set()
 
 @r@
-expression list[0]es;
+expression list[1]es;
 identifier attr, i;
-declarer mac = coresight_etm4x_cross_read;
+declarer mac = DMI_SYSFS_ATTR;
 @@
 mac(es, attr@i, ...);
 

@@ -3,9 +3,9 @@
 s = set()
 
 @r@
-expression list[5]es;
+expression list[0]es;
 identifier attr, i;
-declarer mac = SENSOR_DEVICE_ATTR_2;
+declarer mac = SENSOR_TEMPLATE;
 @@
 mac(es, attr@i, ...);
 

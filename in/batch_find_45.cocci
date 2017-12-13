@@ -3,9 +3,9 @@
 s = set()
 
 @r@
-expression list[0]es;
+expression list[1]es;
 identifier attr, i;
-declarer mac = NCM_PARM_ATTR;
+declarer mac = FCOE_DEVICE_ATTR;
 @@
 mac(es, attr@i, ...);
 

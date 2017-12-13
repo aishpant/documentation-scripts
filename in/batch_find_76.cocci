@@ -3,9 +3,9 @@
 s = set()
 
 @r@
-expression list[1]es;
+expression list[0]es;
 identifier attr, i;
-declarer mac = iscsi_boot_rd_attr;
+declarer mac = PYRA_BIN_ATTRIBUTE_W;
 @@
 mac(es, attr@i, ...);
 

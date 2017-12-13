@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = DEVICE_ATTR_WO;
+declarer mac = gb_dev_loopback_rw_attr;
 @@
 mac(es, attr@i, ...);
 

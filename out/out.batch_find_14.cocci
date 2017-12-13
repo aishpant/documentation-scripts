@@ -1,4 +1,5 @@
-{('DEVICE_ATTR_IGNORE_LOCKDEP', 'authorized')}
-{('DEVICE_ATTR_IGNORE_LOCKDEP', 'bConfigurationValue'), ('DEVICE_ATTR_IGNORE_LOCKDEP', 'authorized')}
-{('DEVICE_ATTR_IGNORE_LOCKDEP', 'bConfigurationValue'), ('DEVICE_ATTR_IGNORE_LOCKDEP', 'authorized'), ('DEVICE_ATTR_IGNORE_LOCKDEP', 'remove')}
-{('DEVICE_ATTR_IGNORE_LOCKDEP', 'delete_device')}
+{('CLASS_ATTR_WO', 'add')}
+{('CLASS_ATTR_WO', 'remove'), ('CLASS_ATTR_WO', 'add')}
+{('CLASS_ATTR_WO', 'export')}
+{('CLASS_ATTR_WO', 'unexport'), ('CLASS_ATTR_WO', 'export')}
+{('CLASS_ATTR_WO', 'hot_remove')}

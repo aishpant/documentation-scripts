@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = __ATTR;
+declarer mac = EEEPC_CREATE_DEVICE_ATTR_RW;
 @@
 mac(es, attr@i, ...);
 

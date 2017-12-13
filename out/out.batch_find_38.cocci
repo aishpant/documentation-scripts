@@ -1,3 +1,10 @@
-{('LM3533_ATTR_RO', 'id')}
-{('LM3533_ATTR_RO', 'als_channel')}
-{('LM3533_ATTR_RO', 'als_channel'), ('LM3533_ATTR_RO', 'id')}
+{('NCM_PARM_ATTR', 'bmNtbFormatsSupported')}
+{('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported')}
+{('NCM_PARM_ATTR', 'dwNtbOutMaxSize'), ('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported')}
+{('NCM_PARM_ATTR', 'dwNtbOutMaxSize'), ('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'wNdpInAlignment'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported')}
+{('NCM_PARM_ATTR', 'wNdpInDivisor'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported'), ('NCM_PARM_ATTR', 'wNdpInAlignment'), ('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'dwNtbOutMaxSize')}
+{('NCM_PARM_ATTR', 'wNdpInDivisor'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported'), ('NCM_PARM_ATTR', 'wNdpInPayloadRemainder'), ('NCM_PARM_ATTR', 'wNdpInAlignment'), ('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'dwNtbOutMaxSize')}
+{('NCM_PARM_ATTR', 'wNdpInDivisor'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported'), ('NCM_PARM_ATTR', 'wNdpInPayloadRemainder'), ('NCM_PARM_ATTR', 'wNdpOutAlignment'), ('NCM_PARM_ATTR', 'wNdpInAlignment'), ('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'dwNtbOutMaxSize')}
+{('NCM_PARM_ATTR', 'wNdpInDivisor'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported'), ('NCM_PARM_ATTR', 'wNdpInPayloadRemainder'), ('NCM_PARM_ATTR', 'wNdpOutAlignment'), ('NCM_PARM_ATTR', 'wNdpOutDivisor'), ('NCM_PARM_ATTR', 'wNdpInAlignment'), ('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'dwNtbOutMaxSize')}
+{('NCM_PARM_ATTR', 'wNdpInDivisor'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported'), ('NCM_PARM_ATTR', 'wNdpInPayloadRemainder'), ('NCM_PARM_ATTR', 'wNdpOutAlignment'), ('NCM_PARM_ATTR', 'wNdpOutDivisor'), ('NCM_PARM_ATTR', 'wNdpInAlignment'), ('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'dwNtbOutMaxSize'), ('NCM_PARM_ATTR', 'wNdpOutPayloadRemainder')}
+{('NCM_PARM_ATTR', 'wNdpInDivisor'), ('NCM_PARM_ATTR', 'bmNtbFormatsSupported'), ('NCM_PARM_ATTR', 'wNdpInPayloadRemainder'), ('NCM_PARM_ATTR', 'wNdpOutAlignment'), ('NCM_PARM_ATTR', 'wNdpOutDivisor'), ('NCM_PARM_ATTR', 'wNdpInAlignment'), ('NCM_PARM_ATTR', 'dwNtbInMaxSize'), ('NCM_PARM_ATTR', 'dwNtbOutMaxSize'), ('NCM_PARM_ATTR', 'wNdpOutPayloadRemainder'), ('NCM_PARM_ATTR', 'wNtbOutMaxDatagrams')}

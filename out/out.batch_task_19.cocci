@@ -1,9 +1,0 @@
-{('DEVICE_ATTR_RO', '0')}
-{('IMPLEMENT_GETSET', '0')}
-{('DEVICE_ATTR_RW', '0'), ('IMPLEMENT_GETSET', '0')}
-{('BLOCK_ATTR', '0')}
-{('INSTANCE_ATTR', '0'), ('BLOCK_ATTR', '0')}
-{('INSTANCE_ATTR', '0'), ('DEVICE_ATTR', '0'), ('BLOCK_ATTR', '0')}
-{('INSTANCE_ATTR', '0'), ('DEVICE_ATTR_LEGACY', '0'), ('DEVICE_ATTR', '0'), ('BLOCK_ATTR', '0')}
-{('DEVICE_ATTR', '0')}
-{('DEVICE_ATTR', '0'), ('GENWQE_DEBUGFS_RO', '0')}

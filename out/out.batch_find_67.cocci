@@ -1,6 +1,11 @@
-{('esre_attr_decl', 'capsule_flags')}
-{('esre_attr_decl', 'capsule_flags'), ('esre_attr_decl', 'fw_type')}
-{('esre_attr_decl', 'capsule_flags'), ('esre_attr_decl', 'fw_type'), ('esre_attr_decl', 'fw_version')}
-{('esre_attr_decl', 'last_attempt_status'), ('esre_attr_decl', 'capsule_flags'), ('esre_attr_decl', 'fw_type'), ('esre_attr_decl', 'fw_version')}
-{('esre_attr_decl', 'last_attempt_version'), ('esre_attr_decl', 'capsule_flags'), ('esre_attr_decl', 'fw_version'), ('esre_attr_decl', 'last_attempt_status'), ('esre_attr_decl', 'fw_type')}
-{('esre_attr_decl', 'last_attempt_version'), ('esre_attr_decl', 'capsule_flags'), ('esre_attr_decl', 'fw_version'), ('esre_attr_decl', 'lowest_supported_fw_version'), ('esre_attr_decl', 'last_attempt_status'), ('esre_attr_decl', 'fw_type')}
+{('CCN_FORMAT_ATTR', 'bus')}
+{('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'bus')}
+{('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'cmp_l'), ('CCN_FORMAT_ATTR', 'bus')}
+{('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'cmp_l'), ('CCN_FORMAT_ATTR', 'bus')}
+{('CCN_FORMAT_ATTR', 'bus'), ('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'event'), ('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'cmp_l')}
+{('CCN_FORMAT_ATTR', 'bus'), ('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'event'), ('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'mask'), ('CCN_FORMAT_ATTR', 'cmp_l')}
+{('CCN_FORMAT_ATTR', 'bus'), ('CCN_FORMAT_ATTR', 'node'), ('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'event'), ('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'mask'), ('CCN_FORMAT_ATTR', 'cmp_l')}
+{('CCN_FORMAT_ATTR', 'bus'), ('CCN_FORMAT_ATTR', 'node'), ('CCN_FORMAT_ATTR', 'port'), ('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'event'), ('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'mask'), ('CCN_FORMAT_ATTR', 'cmp_l')}
+{('CCN_FORMAT_ATTR', 'bus'), ('CCN_FORMAT_ATTR', 'node'), ('CCN_FORMAT_ATTR', 'port'), ('CCN_FORMAT_ATTR', 'type'), ('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'event'), ('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'mask'), ('CCN_FORMAT_ATTR', 'cmp_l')}
+{('CCN_FORMAT_ATTR', 'bus'), ('CCN_FORMAT_ATTR', 'node'), ('CCN_FORMAT_ATTR', 'vc'), ('CCN_FORMAT_ATTR', 'port'), ('CCN_FORMAT_ATTR', 'type'), ('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'event'), ('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'mask'), ('CCN_FORMAT_ATTR', 'cmp_l')}
+{('CCN_FORMAT_ATTR', 'bus'), ('CCN_FORMAT_ATTR', 'node'), ('CCN_FORMAT_ATTR', 'vc'), ('CCN_FORMAT_ATTR', 'port'), ('CCN_FORMAT_ATTR', 'type'), ('CCN_FORMAT_ATTR', 'dir'), ('CCN_FORMAT_ATTR', 'xp'), ('CCN_FORMAT_ATTR', 'event'), ('CCN_FORMAT_ATTR', 'cmp_h'), ('CCN_FORMAT_ATTR', 'mask'), ('CCN_FORMAT_ATTR', 'cmp_l')}

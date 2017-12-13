@@ -6,7 +6,7 @@ def get_attr(filen):
 doc_attr = get_attr("result/documented_attrs.txt")
 found_attr = get_attr("result/found_attrs.txt")
 
-diff_attr = set(doc_attr).symmetric_difference(set(found_attr))
+diff_attr = set(found_attr) - set(doc_attr)
 #for attr in sorted(diff_attr):
 #    print (attr)
 

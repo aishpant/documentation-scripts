@@ -3,9 +3,9 @@
 s = set()
 
 @r@
-expression list[1]es;
+expression list[0]es;
 identifier attr, i;
-declarer mac = CONFIGFS_ATTR;
+declarer mac = CLASS_ATTR_STRING;
 @@
 mac(es, attr@i, ...);
 

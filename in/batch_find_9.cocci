@@ -5,7 +5,7 @@ s = set()
 @r@
 expression list[0]es;
 identifier attr, i;
-declarer mac = CLASS_ATTR_STRING;
+declarer mac = TRACKPOINT_INT_ATTR;
 @@
 mac(es, attr@i, ...);
 
