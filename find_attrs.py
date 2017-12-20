@@ -20,10 +20,10 @@ for idx, line in enumerate(lines):
     macro, attr_pos = line.split()
     with open('in/batch_find_' + str(idx) + '.cocci', 'w') as fil:
         fil.write("@initialize:python@\n@@\ns = set()\n\n")
-        fil.write("@r@\nexpression list[" + attr_pos + "]" +  "es;\nidentifier attr, i;\ndeclarer mac = " + macro + ";\n@@\n")
-        fil.write("mac(es, attr@i, ...);\n\n")
-        fil.write("@script:python@\nattr<<r.i;\nmac<<r.mac;\n@@\n");
-        fil.write("s.add((mac, attr))\nprint (s)\n")
+        fil.write("@r@\nexpression list[" + attr_pos + "]" +  "es;\nidentifier attr, i;\ndeclarer mac = " + macro + ";\nposition p;\n@@\n")
+        fil.write("mac(es, attr@i@p, ...);\n\n")
+        fil.write("@script:python@\nattr<<r.i;\nmac<<r.mac;\np<<r.p;\n@@\n");
+        fil.write("s.add((mac, attr, p[0].file))\nprint (s)\n")
         fil.close()
 
 # get all the generated cocci scripts

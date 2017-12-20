@@ -1,4 +1,4 @@
-{('EDT_ATTR', 'gain')}
-{('EDT_ATTR', 'offset'), ('EDT_ATTR', 'gain')}
-{('EDT_ATTR', 'offset'), ('EDT_ATTR', 'report_rate'), ('EDT_ATTR', 'gain')}
-{('EDT_ATTR', 'offset'), ('EDT_ATTR', 'threshold'), ('EDT_ATTR', 'report_rate'), ('EDT_ATTR', 'gain')}
+{('EDT_ATTR', 'gain', '/home/a/projects/linux/drivers/input/touchscreen/edt-ft5x06.c')}
+{('EDT_ATTR', 'gain', '/home/a/projects/linux/drivers/input/touchscreen/edt-ft5x06.c'), ('EDT_ATTR', 'offset', '/home/a/projects/linux/drivers/input/touchscreen/edt-ft5x06.c')}
+{('EDT_ATTR', 'gain', '/home/a/projects/linux/drivers/input/touchscreen/edt-ft5x06.c'), ('EDT_ATTR', 'offset', '/home/a/projects/linux/drivers/input/touchscreen/edt-ft5x06.c'), ('EDT_ATTR', 'report_rate', '/home/a/projects/linux/drivers/input/touchscreen/edt-ft5x06.c')}
+{('EDT_ATTR', 'gain', '/home/a/projects/linux/drivers/input/touchscreen/edt-ft5x06.c'), ('EDT_ATTR', 'threshold', '/home/a/projects/linux/drivers/input/touchscreen/edt-ft5x06.c'), ('EDT_ATTR', 'offset', '/home/a/projects/linux/drivers/input/touchscreen/edt-ft5x06.c'), ('EDT_ATTR', 'report_rate', '/home/a/projects/linux/drivers/input/touchscreen/edt-ft5x06.c')}

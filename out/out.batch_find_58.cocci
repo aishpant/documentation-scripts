@@ -1,20 +1,20 @@
-{('DRIVER_ATTR_WO', 'connection')}
-{('DRIVER_ATTR_WO', 'connection'), ('DRIVER_ATTR_WO', 'remove')}
-{('DRIVER_ATTR_WO', 'connection'), ('DRIVER_ATTR_WO', 'remove'), ('DRIVER_ATTR_WO', 'new_id')}
-{('DRIVER_ATTR_WO', 'add_link')}
-{('DRIVER_ATTR_WO', 'add_link'), ('DRIVER_ATTR_WO', 'remove_link')}
-{('DRIVER_ATTR_WO', 'add_link'), ('DRIVER_ATTR_WO', 'remove_link'), ('DRIVER_ATTR_WO', 'group')}
-{('DRIVER_ATTR_WO', 'group')}
-{('DRIVER_ATTR_WO', 'bind'), ('DRIVER_ATTR_WO', 'group')}
-{('DRIVER_ATTR_WO', 'uevent'), ('DRIVER_ATTR_WO', 'bind'), ('DRIVER_ATTR_WO', 'group')}
-{('DRIVER_ATTR_WO', 'unbind'), ('DRIVER_ATTR_WO', 'uevent'), ('DRIVER_ATTR_WO', 'bind'), ('DRIVER_ATTR_WO', 'group')}
-{('DRIVER_ATTR_WO', 'uevent'), ('DRIVER_ATTR_WO', 'bind'), ('DRIVER_ATTR_WO', 'unbind'), ('DRIVER_ATTR_WO', 'irq_handler_state'), ('DRIVER_ATTR_WO', 'group')}
-{('DRIVER_ATTR_WO', 'uevent'), ('DRIVER_ATTR_WO', 'bind'), ('DRIVER_ATTR_WO', 'unbind'), ('DRIVER_ATTR_WO', 'irq_handler_state'), ('DRIVER_ATTR_WO', 'new_slot'), ('DRIVER_ATTR_WO', 'group')}
-{('DRIVER_ATTR_WO', 'remove_slot'), ('DRIVER_ATTR_WO', 'uevent'), ('DRIVER_ATTR_WO', 'bind'), ('DRIVER_ATTR_WO', 'unbind'), ('DRIVER_ATTR_WO', 'irq_handler_state'), ('DRIVER_ATTR_WO', 'new_slot'), ('DRIVER_ATTR_WO', 'group')}
-{('DRIVER_ATTR_WO', 'new_id')}
-{('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'remove_id')}
-{('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'remove_id'), ('DRIVER_ATTR_WO', 'rebind')}
-{('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'remove_id'), ('DRIVER_ATTR_WO', 'rebind')}
-{('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'remove_id'), ('DRIVER_ATTR_WO', 'rebind'), ('DRIVER_ATTR_WO', 'group')}
-{('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'remove_id'), ('DRIVER_ATTR_WO', 'rebind'), ('DRIVER_ATTR_WO', 'group')}
-{('DRIVER_ATTR_WO', 'new_id'), ('DRIVER_ATTR_WO', 'remove_id'), ('DRIVER_ATTR_WO', 'rebind'), ('DRIVER_ATTR_WO', 'group')}
+{('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/hv/vmbus_drv.c')}
+{('DRIVER_ATTR_WO', 'remove_id', '/home/a/projects/linux/drivers/hv/vmbus_drv.c'), ('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/hv/vmbus_drv.c')}
+{('DRIVER_ATTR_WO', 'remove_id', '/home/a/projects/linux/drivers/hv/vmbus_drv.c'), ('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/hv/vmbus_drv.c'), ('DRIVER_ATTR_WO', 'group', '/home/a/projects/linux/drivers/s390/net/ctcm_main.c')}
+{('DRIVER_ATTR_WO', 'add_link', '/home/a/projects/linux/drivers/staging/most/core.c')}
+{('DRIVER_ATTR_WO', 'remove_link', '/home/a/projects/linux/drivers/staging/most/core.c'), ('DRIVER_ATTR_WO', 'add_link', '/home/a/projects/linux/drivers/staging/most/core.c')}
+{('DRIVER_ATTR_WO', 'remove_link', '/home/a/projects/linux/drivers/staging/most/core.c'), ('DRIVER_ATTR_WO', 'add_link', '/home/a/projects/linux/drivers/staging/most/core.c'), ('DRIVER_ATTR_WO', 'connection', '/home/a/projects/linux/drivers/s390/net/netiucv.c')}
+{('DRIVER_ATTR_WO', 'remove', '/home/a/projects/linux/drivers/s390/net/netiucv.c'), ('DRIVER_ATTR_WO', 'remove_link', '/home/a/projects/linux/drivers/staging/most/core.c'), ('DRIVER_ATTR_WO', 'add_link', '/home/a/projects/linux/drivers/staging/most/core.c'), ('DRIVER_ATTR_WO', 'connection', '/home/a/projects/linux/drivers/s390/net/netiucv.c')}
+{('DRIVER_ATTR_WO', 'group', '/home/a/projects/linux/drivers/s390/net/qeth_core_main.c')}
+{('DRIVER_ATTR_WO', 'group', '/home/a/projects/linux/drivers/s390/net/qeth_core_main.c'), ('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/hid/hid-core.c')}
+{('DRIVER_ATTR_WO', 'group', '/home/a/projects/linux/drivers/s390/net/qeth_core_main.c'), ('DRIVER_ATTR_WO', 'irq_handler_state', '/home/a/projects/linux/drivers/xen/xen-pciback/pci_stub.c'), ('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/hid/hid-core.c')}
+{('DRIVER_ATTR_WO', 'new_slot', '/home/a/projects/linux/drivers/xen/xen-pciback/pci_stub.c'), ('DRIVER_ATTR_WO', 'group', '/home/a/projects/linux/drivers/s390/net/qeth_core_main.c'), ('DRIVER_ATTR_WO', 'irq_handler_state', '/home/a/projects/linux/drivers/xen/xen-pciback/pci_stub.c'), ('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/hid/hid-core.c')}
+{('DRIVER_ATTR_WO', 'new_slot', '/home/a/projects/linux/drivers/xen/xen-pciback/pci_stub.c'), ('DRIVER_ATTR_WO', 'group', '/home/a/projects/linux/drivers/s390/net/qeth_core_main.c'), ('DRIVER_ATTR_WO', 'remove_slot', '/home/a/projects/linux/drivers/xen/xen-pciback/pci_stub.c'), ('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/hid/hid-core.c'), ('DRIVER_ATTR_WO', 'irq_handler_state', '/home/a/projects/linux/drivers/xen/xen-pciback/pci_stub.c')}
+{('DRIVER_ATTR_WO', 'rebind', '/home/a/projects/linux/drivers/usb/usbip/stub_main.c')}
+{('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/pcmcia/ds.c'), ('DRIVER_ATTR_WO', 'rebind', '/home/a/projects/linux/drivers/usb/usbip/stub_main.c')}
+{('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/pcmcia/ds.c'), ('DRIVER_ATTR_WO', 'rebind', '/home/a/projects/linux/drivers/usb/usbip/stub_main.c'), ('DRIVER_ATTR_WO', 'group', '/home/a/projects/linux/drivers/s390/net/lcs.c')}
+{('DRIVER_ATTR_WO', 'bind', '/home/a/projects/linux/drivers/base/bus.c'), ('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/pcmcia/ds.c'), ('DRIVER_ATTR_WO', 'rebind', '/home/a/projects/linux/drivers/usb/usbip/stub_main.c'), ('DRIVER_ATTR_WO', 'group', '/home/a/projects/linux/drivers/s390/net/lcs.c')}
+{('DRIVER_ATTR_WO', 'uevent', '/home/a/projects/linux/drivers/base/bus.c'), ('DRIVER_ATTR_WO', 'bind', '/home/a/projects/linux/drivers/base/bus.c'), ('DRIVER_ATTR_WO', 'rebind', '/home/a/projects/linux/drivers/usb/usbip/stub_main.c'), ('DRIVER_ATTR_WO', 'group', '/home/a/projects/linux/drivers/s390/net/lcs.c'), ('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/pcmcia/ds.c')}
+{('DRIVER_ATTR_WO', 'uevent', '/home/a/projects/linux/drivers/base/bus.c'), ('DRIVER_ATTR_WO', 'unbind', '/home/a/projects/linux/drivers/base/bus.c'), ('DRIVER_ATTR_WO', 'bind', '/home/a/projects/linux/drivers/base/bus.c'), ('DRIVER_ATTR_WO', 'rebind', '/home/a/projects/linux/drivers/usb/usbip/stub_main.c'), ('DRIVER_ATTR_WO', 'group', '/home/a/projects/linux/drivers/s390/net/lcs.c'), ('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/pcmcia/ds.c')}
+{('DRIVER_ATTR_WO', 'uevent', '/home/a/projects/linux/drivers/base/bus.c'), ('DRIVER_ATTR_WO', 'unbind', '/home/a/projects/linux/drivers/base/bus.c'), ('DRIVER_ATTR_WO', 'bind', '/home/a/projects/linux/drivers/base/bus.c'), ('DRIVER_ATTR_WO', 'rebind', '/home/a/projects/linux/drivers/usb/usbip/stub_main.c'), ('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/pci/pci-driver.c'), ('DRIVER_ATTR_WO', 'group', '/home/a/projects/linux/drivers/s390/net/lcs.c'), ('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/pcmcia/ds.c')}
+{('DRIVER_ATTR_WO', 'uevent', '/home/a/projects/linux/drivers/base/bus.c'), ('DRIVER_ATTR_WO', 'unbind', '/home/a/projects/linux/drivers/base/bus.c'), ('DRIVER_ATTR_WO', 'bind', '/home/a/projects/linux/drivers/base/bus.c'), ('DRIVER_ATTR_WO', 'rebind', '/home/a/projects/linux/drivers/usb/usbip/stub_main.c'), ('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/pci/pci-driver.c'), ('DRIVER_ATTR_WO', 'remove_id', '/home/a/projects/linux/drivers/pci/pci-driver.c'), ('DRIVER_ATTR_WO', 'group', '/home/a/projects/linux/drivers/s390/net/lcs.c'), ('DRIVER_ATTR_WO', 'new_id', '/home/a/projects/linux/drivers/pcmcia/ds.c')}

@@ -1,6 +1,6 @@
-{('LOOP_ATTR_RO', 'autoclear')}
-{('LOOP_ATTR_RO', 'autoclear'), ('LOOP_ATTR_RO', 'backing_file')}
-{('LOOP_ATTR_RO', 'autoclear'), ('LOOP_ATTR_RO', 'backing_file'), ('LOOP_ATTR_RO', 'dio')}
-{('LOOP_ATTR_RO', 'offset'), ('LOOP_ATTR_RO', 'autoclear'), ('LOOP_ATTR_RO', 'backing_file'), ('LOOP_ATTR_RO', 'dio')}
-{('LOOP_ATTR_RO', 'backing_file'), ('LOOP_ATTR_RO', 'offset'), ('LOOP_ATTR_RO', 'partscan'), ('LOOP_ATTR_RO', 'autoclear'), ('LOOP_ATTR_RO', 'dio')}
-{('LOOP_ATTR_RO', 'backing_file'), ('LOOP_ATTR_RO', 'offset'), ('LOOP_ATTR_RO', 'partscan'), ('LOOP_ATTR_RO', 'autoclear'), ('LOOP_ATTR_RO', 'sizelimit'), ('LOOP_ATTR_RO', 'dio')}
+{('LOOP_ATTR_RO', 'autoclear', '/home/a/projects/linux/drivers/block/loop.c')}
+{('LOOP_ATTR_RO', 'backing_file', '/home/a/projects/linux/drivers/block/loop.c'), ('LOOP_ATTR_RO', 'autoclear', '/home/a/projects/linux/drivers/block/loop.c')}
+{('LOOP_ATTR_RO', 'backing_file', '/home/a/projects/linux/drivers/block/loop.c'), ('LOOP_ATTR_RO', 'autoclear', '/home/a/projects/linux/drivers/block/loop.c'), ('LOOP_ATTR_RO', 'dio', '/home/a/projects/linux/drivers/block/loop.c')}
+{('LOOP_ATTR_RO', 'backing_file', '/home/a/projects/linux/drivers/block/loop.c'), ('LOOP_ATTR_RO', 'offset', '/home/a/projects/linux/drivers/block/loop.c'), ('LOOP_ATTR_RO', 'autoclear', '/home/a/projects/linux/drivers/block/loop.c'), ('LOOP_ATTR_RO', 'dio', '/home/a/projects/linux/drivers/block/loop.c')}
+{('LOOP_ATTR_RO', 'partscan', '/home/a/projects/linux/drivers/block/loop.c'), ('LOOP_ATTR_RO', 'autoclear', '/home/a/projects/linux/drivers/block/loop.c'), ('LOOP_ATTR_RO', 'dio', '/home/a/projects/linux/drivers/block/loop.c'), ('LOOP_ATTR_RO', 'backing_file', '/home/a/projects/linux/drivers/block/loop.c'), ('LOOP_ATTR_RO', 'offset', '/home/a/projects/linux/drivers/block/loop.c')}
+{('LOOP_ATTR_RO', 'partscan', '/home/a/projects/linux/drivers/block/loop.c'), ('LOOP_ATTR_RO', 'autoclear', '/home/a/projects/linux/drivers/block/loop.c'), ('LOOP_ATTR_RO', 'dio', '/home/a/projects/linux/drivers/block/loop.c'), ('LOOP_ATTR_RO', 'backing_file', '/home/a/projects/linux/drivers/block/loop.c'), ('LOOP_ATTR_RO', 'offset', '/home/a/projects/linux/drivers/block/loop.c'), ('LOOP_ATTR_RO', 'sizelimit', '/home/a/projects/linux/drivers/block/loop.c')}

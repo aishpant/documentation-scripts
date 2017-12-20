@@ -1,6 +1,8 @@
 import glob
 import ast
+import pprint
 import operator
+from itertools import groupby
 
 def clean_up(line):
     return ast.literal_eval(line)
@@ -17,13 +19,8 @@ def read_result():
                lines.extend(clean_up(l[-1]))
     return lines
 
+attr_tuple = sorted(set(read_result()), key=lambda x: x[2])
+attr_tuple = list(map(lambda x: (x[1], x[0], '/'.join(x[2].split('/')[6:])), attr_tuple))
 
-attr_tuple = sorted(set(read_result()), key=lambda x: x[1])
-#for row in attr_tuple:
-#    print row[1] + " " + row[0]
-#print len(attr_tuple)
-
-attr = [item[1] for item in attr_tuple]
-attr = set(attr)
-for name in attr:
-    print (name)
+for attr in attr_tuple:
+    print (' '.join(attr))

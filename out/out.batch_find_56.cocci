@@ -1,3 +1,3 @@
-{('fc_private_rport_rd_attr', 'maxframe_size')}
-{('fc_private_rport_rd_attr', 'maxframe_size'), ('fc_private_rport_rd_attr', 'port_id')}
-{('fc_private_rport_rd_attr', 'scsi_target_id'), ('fc_private_rport_rd_attr', 'maxframe_size'), ('fc_private_rport_rd_attr', 'port_id')}
+{('fc_private_rport_rd_attr', 'maxframe_size', '/home/a/projects/linux/drivers/scsi/scsi_transport_fc.c')}
+{('fc_private_rport_rd_attr', 'port_id', '/home/a/projects/linux/drivers/scsi/scsi_transport_fc.c'), ('fc_private_rport_rd_attr', 'maxframe_size', '/home/a/projects/linux/drivers/scsi/scsi_transport_fc.c')}
+{('fc_private_rport_rd_attr', 'port_id', '/home/a/projects/linux/drivers/scsi/scsi_transport_fc.c'), ('fc_private_rport_rd_attr', 'scsi_target_id', '/home/a/projects/linux/drivers/scsi/scsi_transport_fc.c'), ('fc_private_rport_rd_attr', 'maxframe_size', '/home/a/projects/linux/drivers/scsi/scsi_transport_fc.c')}

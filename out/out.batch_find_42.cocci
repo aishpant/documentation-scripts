@@ -1,4 +1,4 @@
-{('zorro_config_attr', 'id')}
-{('zorro_config_attr', 'slotaddr'), ('zorro_config_attr', 'id')}
-{('zorro_config_attr', 'slotaddr'), ('zorro_config_attr', 'id'), ('zorro_config_attr', 'slotsize')}
-{('zorro_config_attr', 'slotaddr'), ('zorro_config_attr', 'id'), ('zorro_config_attr', 'type'), ('zorro_config_attr', 'slotsize')}
+{('zorro_config_attr', 'id', '/home/a/projects/linux/drivers/zorro/zorro-sysfs.c')}
+{('zorro_config_attr', 'slotaddr', '/home/a/projects/linux/drivers/zorro/zorro-sysfs.c'), ('zorro_config_attr', 'id', '/home/a/projects/linux/drivers/zorro/zorro-sysfs.c')}
+{('zorro_config_attr', 'slotsize', '/home/a/projects/linux/drivers/zorro/zorro-sysfs.c'), ('zorro_config_attr', 'slotaddr', '/home/a/projects/linux/drivers/zorro/zorro-sysfs.c'), ('zorro_config_attr', 'id', '/home/a/projects/linux/drivers/zorro/zorro-sysfs.c')}
+{('zorro_config_attr', 'slotsize', '/home/a/projects/linux/drivers/zorro/zorro-sysfs.c'), ('zorro_config_attr', 'type', '/home/a/projects/linux/drivers/zorro/zorro-sysfs.c'), ('zorro_config_attr', 'slotaddr', '/home/a/projects/linux/drivers/zorro/zorro-sysfs.c'), ('zorro_config_attr', 'id', '/home/a/projects/linux/drivers/zorro/zorro-sysfs.c')}

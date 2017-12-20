@@ -1,5 +1,5 @@
-{('DMI_SYSFS_ATTR', 'handle')}
-{('DMI_SYSFS_ATTR', 'handle'), ('DMI_SYSFS_ATTR', 'instance')}
-{('DMI_SYSFS_ATTR', 'handle'), ('DMI_SYSFS_ATTR', 'length'), ('DMI_SYSFS_ATTR', 'instance')}
-{('DMI_SYSFS_ATTR', 'position'), ('DMI_SYSFS_ATTR', 'handle'), ('DMI_SYSFS_ATTR', 'length'), ('DMI_SYSFS_ATTR', 'instance')}
-{('DMI_SYSFS_ATTR', 'type'), ('DMI_SYSFS_ATTR', 'instance'), ('DMI_SYSFS_ATTR', 'handle'), ('DMI_SYSFS_ATTR', 'position'), ('DMI_SYSFS_ATTR', 'length')}
+{('DMI_SYSFS_ATTR', 'handle', '/home/a/projects/linux/drivers/firmware/dmi-sysfs.c')}
+{('DMI_SYSFS_ATTR', 'instance', '/home/a/projects/linux/drivers/firmware/dmi-sysfs.c'), ('DMI_SYSFS_ATTR', 'handle', '/home/a/projects/linux/drivers/firmware/dmi-sysfs.c')}
+{('DMI_SYSFS_ATTR', 'instance', '/home/a/projects/linux/drivers/firmware/dmi-sysfs.c'), ('DMI_SYSFS_ATTR', 'length', '/home/a/projects/linux/drivers/firmware/dmi-sysfs.c'), ('DMI_SYSFS_ATTR', 'handle', '/home/a/projects/linux/drivers/firmware/dmi-sysfs.c')}
+{('DMI_SYSFS_ATTR', 'instance', '/home/a/projects/linux/drivers/firmware/dmi-sysfs.c'), ('DMI_SYSFS_ATTR', 'length', '/home/a/projects/linux/drivers/firmware/dmi-sysfs.c'), ('DMI_SYSFS_ATTR', 'position', '/home/a/projects/linux/drivers/firmware/dmi-sysfs.c'), ('DMI_SYSFS_ATTR', 'handle', '/home/a/projects/linux/drivers/firmware/dmi-sysfs.c')}
+{('DMI_SYSFS_ATTR', 'instance', '/home/a/projects/linux/drivers/firmware/dmi-sysfs.c'), ('DMI_SYSFS_ATTR', 'position', '/home/a/projects/linux/drivers/firmware/dmi-sysfs.c'), ('DMI_SYSFS_ATTR', 'length', '/home/a/projects/linux/drivers/firmware/dmi-sysfs.c'), ('DMI_SYSFS_ATTR', 'handle', '/home/a/projects/linux/drivers/firmware/dmi-sysfs.c'), ('DMI_SYSFS_ATTR', 'type', '/home/a/projects/linux/drivers/firmware/dmi-sysfs.c')}

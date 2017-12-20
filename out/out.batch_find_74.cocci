@@ -1,5 +1,5 @@
-{('sdev_rd_attr', 'model')}
-{('sdev_rd_attr', 'rev'), ('sdev_rd_attr', 'model')}
-{('sdev_rd_attr', 'scsi_level'), ('sdev_rd_attr', 'rev'), ('sdev_rd_attr', 'model')}
-{('sdev_rd_attr', 'scsi_level'), ('sdev_rd_attr', 'rev'), ('sdev_rd_attr', 'model'), ('sdev_rd_attr', 'type')}
-{('sdev_rd_attr', 'model'), ('sdev_rd_attr', 'vendor'), ('sdev_rd_attr', 'rev'), ('sdev_rd_attr', 'type'), ('sdev_rd_attr', 'scsi_level')}
+{('sdev_rd_attr', 'model', '/home/a/projects/linux/drivers/scsi/scsi_sysfs.c')}
+{('sdev_rd_attr', 'model', '/home/a/projects/linux/drivers/scsi/scsi_sysfs.c'), ('sdev_rd_attr', 'rev', '/home/a/projects/linux/drivers/scsi/scsi_sysfs.c')}
+{('sdev_rd_attr', 'scsi_level', '/home/a/projects/linux/drivers/scsi/scsi_sysfs.c'), ('sdev_rd_attr', 'model', '/home/a/projects/linux/drivers/scsi/scsi_sysfs.c'), ('sdev_rd_attr', 'rev', '/home/a/projects/linux/drivers/scsi/scsi_sysfs.c')}
+{('sdev_rd_attr', 'scsi_level', '/home/a/projects/linux/drivers/scsi/scsi_sysfs.c'), ('sdev_rd_attr', 'type', '/home/a/projects/linux/drivers/scsi/scsi_sysfs.c'), ('sdev_rd_attr', 'model', '/home/a/projects/linux/drivers/scsi/scsi_sysfs.c'), ('sdev_rd_attr', 'rev', '/home/a/projects/linux/drivers/scsi/scsi_sysfs.c')}
+{('sdev_rd_attr', 'scsi_level', '/home/a/projects/linux/drivers/scsi/scsi_sysfs.c'), ('sdev_rd_attr', 'model', '/home/a/projects/linux/drivers/scsi/scsi_sysfs.c'), ('sdev_rd_attr', 'rev', '/home/a/projects/linux/drivers/scsi/scsi_sysfs.c'), ('sdev_rd_attr', 'type', '/home/a/projects/linux/drivers/scsi/scsi_sysfs.c'), ('sdev_rd_attr', 'vendor', '/home/a/projects/linux/drivers/scsi/scsi_sysfs.c')}

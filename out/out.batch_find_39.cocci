@@ -1,4 +1,4 @@
-{('DEVICE_ULONG_ATTR', 'max_retry_count')}
-{('DEVICE_ULONG_ATTR', 'max_retry_count'), ('DEVICE_ULONG_ATTR', 'max_schedule_delay')}
-{('DEVICE_ULONG_ATTR', 'max_retry_count'), ('DEVICE_ULONG_ATTR', 'max_schedule_delay'), ('DEVICE_ULONG_ATTR', 'retry_count')}
-{('DEVICE_ULONG_ATTR', 'max_retry_count'), ('DEVICE_ULONG_ATTR', 'schedule_delay'), ('DEVICE_ULONG_ATTR', 'max_schedule_delay'), ('DEVICE_ULONG_ATTR', 'retry_count')}
+{('DEVICE_ULONG_ATTR', 'max_retry_count', '/home/a/projects/linux/drivers/xen/xen-balloon.c')}
+{('DEVICE_ULONG_ATTR', 'max_retry_count', '/home/a/projects/linux/drivers/xen/xen-balloon.c'), ('DEVICE_ULONG_ATTR', 'max_schedule_delay', '/home/a/projects/linux/drivers/xen/xen-balloon.c')}
+{('DEVICE_ULONG_ATTR', 'max_retry_count', '/home/a/projects/linux/drivers/xen/xen-balloon.c'), ('DEVICE_ULONG_ATTR', 'retry_count', '/home/a/projects/linux/drivers/xen/xen-balloon.c'), ('DEVICE_ULONG_ATTR', 'max_schedule_delay', '/home/a/projects/linux/drivers/xen/xen-balloon.c')}
+{('DEVICE_ULONG_ATTR', 'max_retry_count', '/home/a/projects/linux/drivers/xen/xen-balloon.c'), ('DEVICE_ULONG_ATTR', 'retry_count', '/home/a/projects/linux/drivers/xen/xen-balloon.c'), ('DEVICE_ULONG_ATTR', 'max_schedule_delay', '/home/a/projects/linux/drivers/xen/xen-balloon.c'), ('DEVICE_ULONG_ATTR', 'schedule_delay', '/home/a/projects/linux/drivers/xen/xen-balloon.c')}

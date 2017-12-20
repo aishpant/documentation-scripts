@@ -1,2 +1,2 @@
-{('__ATTR', 'baud_rate')}
-{('__ATTR', 'dev_name'), ('__ATTR', 'baud_rate')}
+{('__ATTR', 'baud_rate', '/home/a/projects/linux/drivers/misc/ti-st/st_kim.c')}
+{('__ATTR', 'dev_name', '/home/a/projects/linux/drivers/misc/ti-st/st_kim.c'), ('__ATTR', 'baud_rate', '/home/a/projects/linux/drivers/misc/ti-st/st_kim.c')}

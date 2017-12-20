@@ -1,9 +1,9 @@
-{('LM3533_ATTR_RW', 'als_channel')}
-{('LM3533_ATTR_RW', 'als_en'), ('LM3533_ATTR_RW', 'als_channel')}
-{('LM3533_ATTR_RW', 'als_en'), ('LM3533_ATTR_RW', 'als_channel'), ('LM3533_ATTR_RW', 'falltime')}
-{('LM3533_ATTR_RW', 'als_en'), ('LM3533_ATTR_RW', 'als_channel'), ('LM3533_ATTR_RW', 'falltime'), ('LM3533_ATTR_RW', 'linear')}
-{('LM3533_ATTR_RW', 'pwm'), ('LM3533_ATTR_RW', 'als_channel'), ('LM3533_ATTR_RW', 'linear'), ('LM3533_ATTR_RW', 'als_en'), ('LM3533_ATTR_RW', 'falltime')}
-{('LM3533_ATTR_RW', 'pwm'), ('LM3533_ATTR_RW', 'risetime'), ('LM3533_ATTR_RW', 'als_channel'), ('LM3533_ATTR_RW', 'linear'), ('LM3533_ATTR_RW', 'als_en'), ('LM3533_ATTR_RW', 'falltime')}
-{('LM3533_ATTR_RW', 'als_en')}
-{('LM3533_ATTR_RW', 'als_en'), ('LM3533_ATTR_RW', 'linear')}
-{('LM3533_ATTR_RW', 'als_en'), ('LM3533_ATTR_RW', 'pwm'), ('LM3533_ATTR_RW', 'linear')}
+{('LM3533_ATTR_RW', 'als_channel', '/home/a/projects/linux/drivers/leds/leds-lm3533.c')}
+{('LM3533_ATTR_RW', 'als_channel', '/home/a/projects/linux/drivers/leds/leds-lm3533.c'), ('LM3533_ATTR_RW', 'als_en', '/home/a/projects/linux/drivers/leds/leds-lm3533.c')}
+{('LM3533_ATTR_RW', 'als_channel', '/home/a/projects/linux/drivers/leds/leds-lm3533.c'), ('LM3533_ATTR_RW', 'als_en', '/home/a/projects/linux/drivers/leds/leds-lm3533.c'), ('LM3533_ATTR_RW', 'falltime', '/home/a/projects/linux/drivers/leds/leds-lm3533.c')}
+{('LM3533_ATTR_RW', 'als_channel', '/home/a/projects/linux/drivers/leds/leds-lm3533.c'), ('LM3533_ATTR_RW', 'als_en', '/home/a/projects/linux/drivers/leds/leds-lm3533.c'), ('LM3533_ATTR_RW', 'linear', '/home/a/projects/linux/drivers/leds/leds-lm3533.c'), ('LM3533_ATTR_RW', 'falltime', '/home/a/projects/linux/drivers/leds/leds-lm3533.c')}
+{('LM3533_ATTR_RW', 'als_en', '/home/a/projects/linux/drivers/leds/leds-lm3533.c'), ('LM3533_ATTR_RW', 'falltime', '/home/a/projects/linux/drivers/leds/leds-lm3533.c'), ('LM3533_ATTR_RW', 'als_channel', '/home/a/projects/linux/drivers/leds/leds-lm3533.c'), ('LM3533_ATTR_RW', 'pwm', '/home/a/projects/linux/drivers/leds/leds-lm3533.c'), ('LM3533_ATTR_RW', 'linear', '/home/a/projects/linux/drivers/leds/leds-lm3533.c')}
+{('LM3533_ATTR_RW', 'als_en', '/home/a/projects/linux/drivers/leds/leds-lm3533.c'), ('LM3533_ATTR_RW', 'falltime', '/home/a/projects/linux/drivers/leds/leds-lm3533.c'), ('LM3533_ATTR_RW', 'als_channel', '/home/a/projects/linux/drivers/leds/leds-lm3533.c'), ('LM3533_ATTR_RW', 'pwm', '/home/a/projects/linux/drivers/leds/leds-lm3533.c'), ('LM3533_ATTR_RW', 'risetime', '/home/a/projects/linux/drivers/leds/leds-lm3533.c'), ('LM3533_ATTR_RW', 'linear', '/home/a/projects/linux/drivers/leds/leds-lm3533.c')}
+{('LM3533_ATTR_RW', 'als_en', '/home/a/projects/linux/drivers/video/backlight/lm3533_bl.c')}
+{('LM3533_ATTR_RW', 'als_en', '/home/a/projects/linux/drivers/video/backlight/lm3533_bl.c'), ('LM3533_ATTR_RW', 'linear', '/home/a/projects/linux/drivers/video/backlight/lm3533_bl.c')}
+{('LM3533_ATTR_RW', 'als_en', '/home/a/projects/linux/drivers/video/backlight/lm3533_bl.c'), ('LM3533_ATTR_RW', 'linear', '/home/a/projects/linux/drivers/video/backlight/lm3533_bl.c'), ('LM3533_ATTR_RW', 'pwm', '/home/a/projects/linux/drivers/video/backlight/lm3533_bl.c')}
