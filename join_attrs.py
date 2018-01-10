@@ -1,8 +1,10 @@
+from itertools import groupby
+import find_attrs
+import argparse
+import operator
+import pprint
 import glob
 import ast
-import pprint
-import operator
-from itertools import groupby
 
 def clean_up(line):
     return ast.literal_eval(line)
@@ -10,7 +12,7 @@ def clean_up(line):
 def read_result():
     lines = []
     # read coccinelle output files
-    for name in glob.glob("out/out.batch_find_*"):
+    for name in glob.glob("/tmp/out.batch_find_*"):
         with open(name, "r") as filename:
             l = filename.readlines()
             if (len(l) > 0):
@@ -19,8 +21,14 @@ def read_result():
                lines.extend(clean_up(l[-1]))
     return lines
 
-attr_tuple = sorted(set(read_result()), key=lambda x: x[2])
-attr_tuple = list(map(lambda x: (x[1], x[0], '/'.join(x[2].split('/')[6:])), attr_tuple))
+def print_attrs(dir_file):
+    find_attrs.generate_scripts(dir_file)
+    attr_tuple = sorted(set(read_result()), key=lambda x: x[2])
+    attr_tuple = list(map(lambda x: (x[1], x[0], '/'.join(x[2].split('/')[6:])), attr_tuple))
+    ret = ''
+    for attr in attr_tuple:
+        print (' '.join(attr))
+        ret += ' '.join(attr)
+        ret += '\n'
 
-for attr in attr_tuple:
-    print (' '.join(attr))
+    return ret

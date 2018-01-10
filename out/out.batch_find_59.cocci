@@ -1,6 +1,0 @@
-{('MDEV_TYPE_ATTR_RO', 'available_instances', '/home/a/projects/linux/drivers/s390/cio/vfio_ccw_ops.c')}
-{('MDEV_TYPE_ATTR_RO', 'available_instances', '/home/a/projects/linux/drivers/s390/cio/vfio_ccw_ops.c'), ('MDEV_TYPE_ATTR_RO', 'device_api', '/home/a/projects/linux/drivers/s390/cio/vfio_ccw_ops.c')}
-{('MDEV_TYPE_ATTR_RO', 'available_instances', '/home/a/projects/linux/drivers/s390/cio/vfio_ccw_ops.c'), ('MDEV_TYPE_ATTR_RO', 'device_api', '/home/a/projects/linux/drivers/s390/cio/vfio_ccw_ops.c'), ('MDEV_TYPE_ATTR_RO', 'name', '/home/a/projects/linux/drivers/s390/cio/vfio_ccw_ops.c')}
-{('MDEV_TYPE_ATTR_RO', 'available_instances', '/home/a/projects/linux/drivers/gpu/drm/i915/gvt/kvmgt.c')}
-{('MDEV_TYPE_ATTR_RO', 'available_instances', '/home/a/projects/linux/drivers/gpu/drm/i915/gvt/kvmgt.c'), ('MDEV_TYPE_ATTR_RO', 'description', '/home/a/projects/linux/drivers/gpu/drm/i915/gvt/kvmgt.c')}
-{('MDEV_TYPE_ATTR_RO', 'available_instances', '/home/a/projects/linux/drivers/gpu/drm/i915/gvt/kvmgt.c'), ('MDEV_TYPE_ATTR_RO', 'description', '/home/a/projects/linux/drivers/gpu/drm/i915/gvt/kvmgt.c'), ('MDEV_TYPE_ATTR_RO', 'device_api', '/home/a/projects/linux/drivers/gpu/drm/i915/gvt/kvmgt.c')}

@@ -1,6 +1,6 @@
+from itertools import groupby
 from pprint import pprint
 import subprocess
-from itertools import groupby
 import csv
 
 def get_lines(filen):
@@ -13,12 +13,19 @@ found_attrs = [attr.split(' ') for attr in found_attrs]
 
 diff_attrs = [attr for attr in found_attrs if attr[0] not in doc_attrs]
 dir_file = '/home/a/projects/linux/Documentation/*'
+kernel_path = '/home/a/projects/linux'
 
 def grep_usage(attr):
     name = attr[0]
-    output = subprocess.Popen('grep -r ' + name + ' ' + dir_file, shell = True,
-            stdout = subprocess.PIPE).communicate()[0].decode('utf-8').strip()
+    # search for the attribute anywhere in documentation
+    #output = subprocess.Popen('grep -r ' + name + ' ' + dir_file, shell = True,
+    #        stdout = subprocess.PIPE).communicate()[0].decode('utf-8').strip()
+    # double check if attribute is defined in Documentation/ABI
+    output = subprocess.Popen('git -C ' + kernel_path + ' grep ' + name + ' | grep ^What',
+            shell = True, stdout = subprocess.PIPE).communicate()[0].decode('utf-8').strip()
     if output:
+        print ("yes " + attr )
+        print (output)
         attr.append("Maybe")
     else:
         attr.append("No")

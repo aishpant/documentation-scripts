@@ -104,3 +104,8 @@ USB_UDC_ATTR 0
 IIO_CONST_ATTR 0
 VBD_SHOW_ALLRING 0
 NVM_DEV_ATTR_RO 0
+rio_config_attr 0
+PORT_ATTR_RO 0
+PORT_ATTR 0
+define_one_state_ro 0
+define_one_state_rw 0

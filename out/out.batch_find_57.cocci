@@ -1,5 +1,0 @@
-{('ssb_config_attr', 'core_num', '/home/a/projects/linux/drivers/ssb/main.c')}
-{('ssb_config_attr', 'coreid', '/home/a/projects/linux/drivers/ssb/main.c'), ('ssb_config_attr', 'core_num', '/home/a/projects/linux/drivers/ssb/main.c')}
-{('ssb_config_attr', 'coreid', '/home/a/projects/linux/drivers/ssb/main.c'), ('ssb_config_attr', 'core_num', '/home/a/projects/linux/drivers/ssb/main.c'), ('ssb_config_attr', 'irq', '/home/a/projects/linux/drivers/ssb/main.c')}
-{('ssb_config_attr', 'coreid', '/home/a/projects/linux/drivers/ssb/main.c'), ('ssb_config_attr', 'core_num', '/home/a/projects/linux/drivers/ssb/main.c'), ('ssb_config_attr', 'irq', '/home/a/projects/linux/drivers/ssb/main.c'), ('ssb_config_attr', 'revision', '/home/a/projects/linux/drivers/ssb/main.c')}
-{('ssb_config_attr', 'irq', '/home/a/projects/linux/drivers/ssb/main.c'), ('ssb_config_attr', 'revision', '/home/a/projects/linux/drivers/ssb/main.c'), ('ssb_config_attr', 'core_num', '/home/a/projects/linux/drivers/ssb/main.c'), ('ssb_config_attr', 'coreid', '/home/a/projects/linux/drivers/ssb/main.c'), ('ssb_config_attr', 'vendor', '/home/a/projects/linux/drivers/ssb/main.c')}

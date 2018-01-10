@@ -1,4 +1,0 @@
-{('ISKU_BIN_ATTR_W', 'control', '/home/a/projects/linux/drivers/hid/hid-roccat-isku.c')}
-{('ISKU_BIN_ATTR_W', 'reset', '/home/a/projects/linux/drivers/hid/hid-roccat-isku.c'), ('ISKU_BIN_ATTR_W', 'control', '/home/a/projects/linux/drivers/hid/hid-roccat-isku.c')}
-{('ISKU_BIN_ATTR_W', 'reset', '/home/a/projects/linux/drivers/hid/hid-roccat-isku.c'), ('ISKU_BIN_ATTR_W', 'control', '/home/a/projects/linux/drivers/hid/hid-roccat-isku.c'), ('ISKU_BIN_ATTR_W', 'talk', '/home/a/projects/linux/drivers/hid/hid-roccat-isku.c')}
-{('ISKU_BIN_ATTR_W', 'reset', '/home/a/projects/linux/drivers/hid/hid-roccat-isku.c'), ('ISKU_BIN_ATTR_W', 'control', '/home/a/projects/linux/drivers/hid/hid-roccat-isku.c'), ('ISKU_BIN_ATTR_W', 'talkfx', '/home/a/projects/linux/drivers/hid/hid-roccat-isku.c'), ('ISKU_BIN_ATTR_W', 'talk', '/home/a/projects/linux/drivers/hid/hid-roccat-isku.c')}

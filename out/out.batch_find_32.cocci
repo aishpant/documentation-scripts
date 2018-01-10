@@ -1,3 +1,0 @@
-{('KONEPLUS_BIN_ATTRIBUTE_W', 'control', '/home/a/projects/linux/drivers/hid/hid-roccat-koneplus.c')}
-{('KONEPLUS_BIN_ATTRIBUTE_W', 'control', '/home/a/projects/linux/drivers/hid/hid-roccat-koneplus.c'), ('KONEPLUS_BIN_ATTRIBUTE_W', 'macro', '/home/a/projects/linux/drivers/hid/hid-roccat-koneplus.c')}
-{('KONEPLUS_BIN_ATTRIBUTE_W', 'control', '/home/a/projects/linux/drivers/hid/hid-roccat-koneplus.c'), ('KONEPLUS_BIN_ATTRIBUTE_W', 'talk', '/home/a/projects/linux/drivers/hid/hid-roccat-koneplus.c'), ('KONEPLUS_BIN_ATTRIBUTE_W', 'macro', '/home/a/projects/linux/drivers/hid/hid-roccat-koneplus.c')}
