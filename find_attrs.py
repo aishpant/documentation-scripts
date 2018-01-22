@@ -9,7 +9,7 @@ def get_macros():
 def write_cocci_output(filename, dir_file):
     print ('Processing file ' + str(filename))
     # run coccinelle on drivers
-    os.system('spatch -j 4 --sp-file ' + str(filename) + ' --dir ' + dir_file +
+    os.system('spatch -j 4 --very-quiet --sp-file ' + str(filename) + ' --dir ' + dir_file +
     '>' + '/tmp/out.' + str(os.path.basename(filename)))
     print ('########################################################')
 
@@ -24,8 +24,8 @@ def generate_scripts(dir_file):
             fil.write("@initialize:python@\n@@\ns = set()\n\n")
             fil.write("@r@\nexpression list[" + attr_pos + "]" +  "es;\nidentifier attr, i;\ndeclarer mac = " + macro + ";\nposition p;\n@@\n")
             fil.write("mac(es, attr@i@p, ...);\n\n")
-            fil.write("@script:python@\nattr<<r.i;\nmac<<r.mac;\np<<r.p;\n@@\n");
-            fil.write("s.add((mac, attr, p[0].file))\nprint (s)\n")
+            fil.write("@script:python depends on r@\nattr<<r.i;\nmac<<r.mac;\np<<r.p;\n@@\n");
+            fil.write("s.add((mac, attr, p[0].file, p[0].line))\nprint (s)\n")
             fil.close()
 
 # get all the generated cocci scripts
