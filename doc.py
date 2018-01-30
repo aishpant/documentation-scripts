@@ -1,7 +1,7 @@
 from pprint import pprint
 from tempfile import mkstemp
 from pathlib import Path
-from os import fdopen, remove
+from os import path, fdopen, remove
 import subprocess
 import join_attrs
 import textwrap
@@ -46,11 +46,11 @@ def add_comments(filename, line_num):
     command = 'sed -n ' + lower + ',' + upper + 'p ' + filename + ' | ' + match_comments
     out = run(command)
     if out:
-        save_to_file(res)
+        save_to_file(out)
 
 # generate cocci file by replacing a pattern by a substring
 def replace_cocci(file_path, substr, pattern):
-    fh, abs_path = mkstemp()
+    fh, abs_path = mkstemp(suffix='.cocci')
     with fdopen(fh, 'w') as new_file:
         with open (file_path, 'r') as old_file:
             for line in old_file:
@@ -60,7 +60,7 @@ def replace_cocci(file_path, substr, pattern):
 # get show/store func lines from cocci output
 def get_func_lines(file_path, linux_source_file):
     line_num = {}
-    command = 'spatch --very-quiet --sp-file ' + file_path  + ' --dir ' + linux_source_file
+    command = 'spatch -j 4 --very-quiet --sp-file ' + file_path  + ' --dir ' + linux_source_file
     out = run(command)
     if out:
         lines = out.split('\n')
@@ -71,9 +71,10 @@ def get_func_lines(file_path, linux_source_file):
 # get struct definition which is used in show fn
 def add_struct_comments(show_fn, filename):
     cocci_script = 'get_show_struct.cocci'
+    # print ('show_fn ' + show_fn)
     temp_show_script = replace_cocci(cocci_script, show_fn, 'show_fn')
 
-    command = 'spatch --very-quiet --sp-file ' + temp_show_script + ' --dir ' + filename
+    command = 'spatch -j 4 --very-quiet --sp-file ' + temp_show_script + ' --dir ' + filename
     out = run(command)
     if out:
         save_to_file(out)
@@ -82,7 +83,7 @@ def add_struct_comments(show_fn, filename):
         struct_type = [l.split(' ')[1] for l in out.splitlines() if l.startswith('struct_type')]
         if (len(struct_type) > 0):
             temp_struct_script = replace_cocci('match_struct.cocci', struct_type[0], 'struct_type')
-            command = 'spatch --very-quiet --include-headers --sp-file ' + temp_struct_script + ' --dir ' + kernel_path
+            command = 'spatch -j 4 --very-quiet --include-headers --sp-file ' + temp_struct_script + ' --dir ' + kernel_path
             out = run(command)
             if out:
                 save_to_file(out)
@@ -102,7 +103,12 @@ attrs_info = list(filter(None, attrs_info.split('\n')))
 attrs = [line.split() for line in attrs_info]
 print ("#################################")
 
-f = open('test_doc', 'a')
+if path.exists('test_doc'):
+    append_write = 'a' # append if already exists
+else:
+    append_write = 'w' # make a new file if not
+f = open('test_doc', append_write)
+
 doc_list = []
 for attr_info in attrs_info:
     attr, mac, filename, line_num = attr_info.split()
@@ -110,10 +116,10 @@ for attr_info in attrs_info:
     save_to_file(attr_info)
 
     # run a plain old grep for occurences in Documenation/ folder
-    command = 'git grep -A2 -B1 \'' + attr + '\' Documentation/'
-    grep_attr = run(command)
-    if grep_attr:
-        save_to_file(grep_attr)
+    #command = 'git grep -A1 -B1 \'' + attr + '\' Documentation/'
+    #grep_attr = run(command)
+    #if grep_attr:
+    #    save_to_file(grep_attr)
 
     # add macro comments
     save_to_file('%%%%%%%%%%% macro comments %%%%%%%%%%%%%%')
@@ -141,6 +147,7 @@ for attr_info in attrs_info:
 
     save_to_file('%%%%%%%%%%% struct comments %%%%%%%%%%%%%%')
     if show_fn:
+        # print ('standard macro')
         save_to_file('%%%%% standard macro %%%%%%')
         add_struct_comments(show_fn, filename)
     else:
@@ -153,10 +160,10 @@ for attr_info in attrs_info:
         macro_arguments = out.split(',')
         # strip extra spaces
         macro_arguments = [arg.strip() for arg in macro_arguments]
-        print (macro_arguments)
+        # print (macro_arguments)
         [add_struct_comments(arg, filename) for arg in macro_arguments]
-        [add_struct_comments(arg + '_show', filename) for arg in macro_arguments]
-        [add_struct_comments('show_' + arg, filename) for arg in macro_arguments]
+        #[add_struct_comments(arg + '_show', filename) for arg in macro_arguments]
+        #[add_struct_comments('show_' + arg, filename) for arg in macro_arguments]
 
 
     # get the first commit that introduced the line

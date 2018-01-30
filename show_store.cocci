@@ -50,7 +50,7 @@ print ('store ' + p2[0].line)
 
 @ra@
 declarer name DEVICE_ATTR;
-identifier attr =~ "lprev";
+identifier attr =~ "attrname";
 identifier show, store;
 @@
 

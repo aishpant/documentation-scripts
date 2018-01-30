@@ -109,3 +109,5 @@ PORT_ATTR_RO 0
 PORT_ATTR 0
 define_one_state_ro 0
 define_one_state_rw 0
+DEF_ATTR 1
+CLASS_ATTR_RO 0
