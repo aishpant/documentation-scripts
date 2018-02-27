@@ -8,7 +8,7 @@ TO="$(perl scripts/get_maintainer.pl --separator , --nokeywords --nogit --nogit-
 ADD=", Jonathan Corbet <corbet@lwn.net>, Greg KH <gregkh@linuxfoundation.org>"
 CC="Julia Lawall <julia.lawall@lip6.fr>" #hard-code cc list for now
 #CC=""
-#TO="aishpant@gmail.com"
+#CC="aishpant@gmail.com"
 echo "To: $TO$ADD"
 echo "CC: $CC"
 LAST_COMMIT="$(git log -$N --format="%h" | sed -n 1p)"
@@ -27,7 +27,7 @@ if [ "$N" = '1' ]
 then
 	DRAFTS="$(git format-patch -o /tmp/ HEAD^ --subject-prefix="$SUBJECT" --cc="$CC" --to="$TO$ADD")"
 else
-	DRAFTS="$(git format-patch -o /tmp/ --cover-letter -n --subject-prefix="$SUBJECT" --thread=shallow --cc="$CC" --to="$TO$ADD" $COMMIT_RANGE)"
+	DRAFTS="$(git format-patch -o /tmp/ -n --subject-prefix="$SUBJECT" --cover-letter --thread=shallow --cc="$CC" --to="$TO$ADD" $COMMIT_RANGE)"
 fi
 
 for DRAFT in $DRAFTS

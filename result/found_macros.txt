@@ -111,3 +111,15 @@ define_one_state_ro 0
 define_one_state_rw 0
 DEF_ATTR 1
 CLASS_ATTR_RO 0
+PORT_PMA_ATTR 0
+ata_link_linkspeed_attr 0
+ata_dev_attr 1
+ata_dev_simple_attr 0
+ATA_DEVICE_ATTR 1
+ata_port_simple_attr 1
+IPMI_SI_ATTR 0
+IPMI_SSIF_ATTR 0
+RECONFIG_DEVICE_ATTR 0
+CODEC_ATTR 0
+WIDGET_ATTR_RO 0
+WIDGET_ATTR_RW 0

@@ -1,3 +1,4 @@
+from distutils.version import StrictVersion
 from pprint import pprint
 from tempfile import mkstemp
 from pathlib import Path
@@ -114,6 +115,7 @@ for attr_info in attrs_info:
     attr, mac, filename, line_num = attr_info.split()
     save_to_file('\n###########  attr name : ' + attr + ' #################\n')
     save_to_file(attr_info)
+    print (attr_info)
 
     # run a plain old grep for occurences in Documenation/ folder
     #command = 'git grep -A1 -B1 \'' + attr + '\' Documentation/'
@@ -167,9 +169,8 @@ for attr_info in attrs_info:
 
 
     # get the first commit that introduced the line
-    command = 'git -C ' + kernel_path + ' log --pretty=format:\'%h %ad\' --date=format:\'%m/%Y\' -L ' + line_num + ',' + line_num + ':' + filename +  ' --reverse'
+    command = 'git -C ' + kernel_path + ' log --pretty=format:\'%h %cd\' --date=format:\'%m/%Y\' -L ' + line_num + ',' + line_num + ':' + filename + ' --reverse'
     output = run(command)
-
     if output:
         res = output.split('\n')[0] # get the oldest commit
         commit_hash, date = res.split()
@@ -185,10 +186,11 @@ for attr_info in attrs_info:
         command = 'git -C ' + kernel_path + ' tag --contains=' + commit_hash
         output = run(command)
         tags = output.split('\n')
-        tags = [tag for tag in tags if tag.startswith('v') and 'rc' not in tag]
-        kernel_version = sorted(tags)[0]
+        tags = [tag[1:] for tag in tags if tag.startswith('v') and 'rc' not in tag]
+        kernel_version = sorted(tags,  key=StrictVersion)[0]
         doc_list.append([attr, date, kernel_version])
         print (attr, date, kernel_version)
+        save_to_file(' '.join([attr, date, kernel_version]))
 
 doc_list = sorted(doc_list, key=lambda x: datetime.datetime.strptime(x[1], '%m/%Y'))
 print ("#################################")
