@@ -1,16 +1,20 @@
 #!/bin/bash
 
+# Outputs rows of comma separated values of the number of sysfs attributes
+# documented over time from v2.6.12 till v4.16-rc3
+# Kernel Version, Number of Documented Attributes
+
 print_stats () {
      local file="sysfs_stats.txt"
      if [ ! -f "$file" ] ; then
          # if not create the file
          touch "$file"
-	 echo "KernelVersion DocumentedAttributes"
+	 echo "KernelVersion, DocumentedAttributes"
      fi
      echo -n "$1, " >> "$file"
      kernel_path="/home/a/projects/linux"
      git -C $kernel_path checkout $1
-     OUTPUT="$(grep -r '^What' $kernel_path/Documentation/ABI/* --exclude-dir=$kernel_path/Documentation/ABI/obsolete | wc -l)"
+     OUTPUT="$(grep -r '^What:' $kernel_path/Documentation/ABI/* --exclude-dir=$kernel_path/Documentation/ABI/obsolete | wc -l)"
      echo "$OUTPUT" >> "$file"
      git -C $kernel_path checkout master
      git -C $kernel_path clean -fxd

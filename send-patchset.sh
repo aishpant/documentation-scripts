@@ -6,7 +6,7 @@ VERSION="$3"
 
 TO="$(perl scripts/get_maintainer.pl --separator , --nokeywords --nogit --nogit-fallback --norolestats -f $FILE)"
 ADD=", Jonathan Corbet <corbet@lwn.net>, Greg KH <gregkh@linuxfoundation.org>"
-CC="Julia Lawall <julia.lawall@lip6.fr>" #hard-code cc list for now
+CC="Julia Lawall <julia.lawall@lip6.fr>, linux-doc@vger.kernel.org," #hard-code cc list for now
 #CC=""
 #CC="aishpant@gmail.com"
 echo "To: $TO$ADD"
